@@ -1,0 +1,3436 @@
+﻿<!DOCTYPE html>
+
+<!--[if IEMobile 7 ]>    <html class="no-js iem7"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>PDX Vocations</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta content="initial-scale=1.0, user-scalable=no" name="viewport">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />	
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="description" content="">
+        
+        
+
+
+<!-----begin siteloader---------->        
+        <script>
+window.onload = function() {
+
+	
+
+
+   document.getElementById("siteLoader2").style.display = "none";
+   document.getElementById("hider2").style.display = "block";
+}
+</script>
+
+
+
+
+<!------------BEGIN SITELOADER-------------->
+
+<div id="siteLoader2">
+
+<div style="position: fixed;
+  top: 40%;
+  lefts: 50%; width:100%; text-align:center;
+  margin-tops: -125px;
+  margin-lefts: -64px;">
+  
+  <img style="display:none;" src="images/logo.png">  
+
+   <br>
+   
+    <div style="text-align:center; font-family:Arial, Helvetica, sans-serif; display:none; color:#FFFFFF; width:100%; font-weight:bold; margin-top:1.3em; line-height:1.5em; 
+    text-shadow: 2px 2px #333333;">
+   Archdiocese of Portland Oregon <br>
+   Office of Vocations
+  <br><br>
+
+		
+
+  
+  </div><!---end text-->
+  
+   <img src="images/loader2.gif">  
+  
+   </div>
+
+  </div> 
+  
+<!---end siteloader-->
+
+        
+        
+
+
+ <!-- CSS Files -->
+        <link rel="stylesheet" href="assets/css/jquery.mobile.structure-1.0.1.min.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/jquery.mobile.1.0.1.min.css" />
+<!--        <link rel="stylesheet" href="assets/css/add2home.css"><!-- Iphone Bubble  -->
+        <link rel="stylesheet" href="assets/css/icons/icons.css" type="text/css" >
+        <link rel="stylesheet" href="assets/css/icons/nav-icons.css" type="text/css" >
+<!--		<link rel="stylesheet" href="assets/css/flexslider.css" type="text/css" media="screen" /> -->
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css" > <!-- Theme Style Sheet File -->
+        <link rel="stylesheet" href="assets/css/normalize.css">
+       <link rel="stylesheet" href="assets/css/main.css">  
+<!--		<link rel="stylesheet" href="assets/css/photoswipe.css">  -->
+	    <link rel="stylesheet" type="text/css" href="assets/css/icons/nav-icons-black.css"> 
+	    
+	    
+	    
+   <link rel="stylesheet" href="pdx.css" />
+        
+        <!--web4u css-->
+ <!--       <link rel="stylesheet" href="assets/css/web4u.css"> <!---some glitch..something in here is important for slide out navigation icons--->
+      <link rel="stylesheet" href="web4u.css"><!---something in here makes those icons go away--->
+   <link rel="stylesheet" href="http://www.web4uonline.com/pdxvocations/web4u-out.css">
+
+       <!-- phonegap javascripts -->
+        <script src="phonegap.js"></script>
+        
+        
+        
+
+
+ <!------ FUNCTIONS FOR JSON EMBEDS -- mostly buttons ------->
+ <script src="http://web4uonline.com/pdxvocations/web4u-out.js"></script>
+
+ <!---other JS from template---->
+ <!-- Javascripts is down of the page for fast open -->
+ 
+
+
+<!--        <script src="assets/js/vendor/modernizr-2.6.1.min.js"></script> -->
+
+        <script src="assets/js/jquery-1.6.4.min.js"></script>
+        <script src="assets/js/jquery.mobile-1.0.1.min.js"></script>
+ <!--       <script src="assets/js/vendor/zepto.min.js"></script>  -->
+ <!--       <script src="assets/js/helper.js"></script>             -->
+<!--		 <script src="assets/js/custom.js"></script>    -->
+		 
+<!--		 <script src="assets/js/apprise-1.5.full.js"></script>    -->
+
+    <!--    <script src="assets/js/add2home.js" charset="utf-8"></script><!-- Iphone Bubble  -->
+ <!-------------------------------->
+
+  
+ <!---Getting Readings---->
+<script src="inc-sundayReadings.js"></script>
+       
+        
+       
+ 
+<!----scripts to speed things up / scroll to top----------------->
+<script>
+
+$(":jqmData(role='collapsible')", $.mobile.activePage).click(function(e) {
+    if (! $(this).hasClass('ui-collapsible-heading-collapsed')) {
+        $.mobile.silentScroll($(this).offset().top);
+    }
+});
+
+
+</script>
+
+<script>
+	
+	// make collapsible items scroll to top on open
+	$("div.ui-collapsible-set").live("expand", function(e) {
+    var top = $(e.target).offset().top;
+        if ($(window).scrollTop() > top)
+            $(window).scrollTop(top);
+});
+		
+	</script>
+
+
+       
+<script>
+	
+	//attempts to speed things up
+	$.mobile.defaultPageTransition   = 'none';
+	$.mobile.defaultDialogTransition = 'none';
+	$.mobile.buttonMarkup.hoverDelay = 0;
+	$document.bind("touchstart", function(event){});
+
+</script>
+
+	
+<!-------------------------------------------------->
+        
+        <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
+        <!--
+        <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+        -->
+        
+        
+       <style>
+       </style>
+        
+        
+</head>
+    <body style="background-color:#0a6137 !important; background-image:none !important;" id="hider2">
+ 
+    
+    
+
+<!--
+////////////////////////////////////////////////////////////////////////////////
+								BEGIN MENU
+//////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+        
+        
+        <!-- *********************************************************
+       	 HOME PAGE BEGIN
+        ********************************************************* -->
+        
+                
+        
+        <div data-role="page" class="pages" id="home" data-theme="l">
+        
+        <div class="homebg" style="height:100%; left: 0px; top:0px;">
+        
+  	
+          
+            <!-- Header Begin -->
+            <div data-role="header"  data-theme="d">
+            
+     
+
+            
+            
+            
+           <div class='logo'><img style='margin:0px 5px -3px 0px;' src='img2/icon.png'>PDX Vocations</div>
+            
+            
+            </div>
+            <!-- /header -->
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#" title="Home">Home</a></li>
+                
+                
+              <div class="crest">&nbsp;</div>
+                
+           
+</ul>
+            <!-- / breadcrumb-->
+            
+            
+            
+            <!-- Content Begin -->
+            <div data-role="content">
+            
+            
+            
+     
+               
+                
+                
+            
+            
+           
+            
+          
+     
+               
+            
+ 
+</div> <!--end full width for background-->   
+ 
+
+</div><!---end home bg--->
+
+<script src="inc-footer.js"></script>
+            
+
+       </div><!---end data role page--->
+        
+        
+    
+        <!-- *********************************************************
+       	 HOME PAGE END
+        ********************************************************* -->
+       
+  <!-- *********************************************************
+       	 DISCERNMENT NAV
+        ********************************************************* -->
+     
+<div data-role="page" class="pages" id="disc-nav" data-theme="c" class="pagesbg" style="background-image:url('img2/stripe.jpg');"> 
+               
+<script src="inc-header.js"></script>
+         
+
+      
+<ul class='breadcrumb'>
+
+<li><a href='#home'><div class='homeicon'></div></a></li>    
+<li><a href='#' title='Home'>Discernment Resources</a></li>
+<div class='crest'>&nbsp;</div>
+</ul>
+
+
+
+<div data-role='content'>
+
+<img src="img2/mass-page.jpg" alt="img" class="align-center imgbox fixwidth">
+
+
+<ul data-role="listview" data-inset="true" data-theme="c" style="margin-top:20px;">
+	<li data-role="list-divider">Discernment Resources</li>
+
+    <li><a href="#discernment" data-transition="slide" data-prefetch="false">Discernment Basics</a></li>
+    <li><a href="#questions" data-transition="slide" data-prefetch="false">General Questions</a></li>
+    <li><a href="#seminary" data-transition="slide" data-prefetch="false">Seminary</a></li>
+    <li><a href="#priesthood" data-transition="slide" data-prefetch="false">Priesthood</a></li>
+    <li><a href="#scriptures" data-transition="slide" data-prefetch="false">Discernment Scriptures</a></li>
+    
+    <li><a href="" onclick="var ref = window.open('http://web4uonline.com/pdxvocations/videos.php', '_blank');"  data-transition="none">Videos</a></li>
+
+  </ul>
+
+
+</div><!---end content--->
+
+  
+<script src="inc-footer.js"></script>
+ 
+               
+</div><!---end data role page--->      
+        
+        
+
+ <!-- *********************************************************
+       	 DISCERNMENT NAV
+        ********************************************************* -->
+
+ <!-- *********************************************************
+       FAITH NAV
+        ********************************************************* -->
+        
+        
+     
+<div data-role="page" class="pages" id="faith-nav" data-theme="c" class="pagesbg" style="background-image:url('img2/stripe.jpg');"> 
+               
+<script src="inc-header.js"></script>
+         
+
+      
+<ul class='breadcrumb'>
+
+<li><a href='#home'><div class='homeicon'></div></a></li>    
+<li><a href='#' title='Home'>Pray</a></li>
+<div class='crest'>&nbsp;</div>
+</ul>
+
+
+<script>
+
+var td = new Date(); 
+
+day = td.getDay();
+
+// day = 6;
+
+if (day==0) {day = 7}
+
+// document.write (day);
+
+var nextSunday= new Date(td.getFullYear(),td.getMonth(),td.getDate()+(7-day)); 
+// document.write(nextSunday);
+
+var dd = nextSunday.getDate();
+var mm = nextSunday.getMonth()+1; //January is 0!
+
+var yyyy = nextSunday.getFullYear();
+if(dd<10){dd='0'+dd} if(mm<10){mm='0'+mm} 
+
+ printSunday = yyyy+mm+dd;
+
+// document.write("8 digit code: "+printSunday);
+
+sundayURL = "http://www.universalis.com/" +printSunday+ "/USA.Sunday/jsonpmass.js?callback=universalisCallback";
+
+// document.write("<p>Sunday URL: " +sundayURL);
+
+sundayURL2 = "http://www.universalis.com/" +printSunday+ "/USA.Sunday/mass.htm";
+
+
+
+</script>
+
+
+
+<div data-role='content'>
+
+<img src="img2/prayer.jpg" alt="img" class="align-center imgbox fixwidth">
+
+<ul data-role="listview" data-inset="true" data-theme="c" style="margin-top:20px;">
+	<li data-role="list-divider">Faith & Prayer</li>
+    <li><a href="#prayers" data-transition="slide" data-prefetch="false">Prayers</a></li>
+    
+    
+    
+    <li><a href="" onclick="var ref = window.open('http://www.universalis.com/USA.Sunday/mass.htm', '_blank');"  data-transition="none">Today's Readings</a></li>
+	
+	<li><a href="" onclick="var ref = window.open(sundayURL2, '_blank');"  data-transition="none">Sunday's Readings</a></li>
+
+    
+    
+   
+    
+    <li><a href="#bible" onclick="var ref = window.open('https://www.bible.com/bible/42/jhn.1.cpdv', '_blank');" data-transition="none">Bible</a></li>
+    
+   <li><a href="" onclick="var ref = window.open('http://www.usccb.org/beliefs-and-teachings/what-we-believe/catechism/catechism-of-the-catholic-church/epub/index.cfm', '_system');"  data-transition="none">Catechism</a></li>
+   
+   <li><a href="" onclick="var ref = window.open('http://www.universalis.com/USA.Sunday/lauds.htm', '_blank');"  data-transition="none">Morning Prayer</a></li>
+				<li><a href="" onclick="var ref = window.open('http://www.universalis.com/USA.Sunday/vespers.htm', '_blank');"  data-transition="none">Evening Prayer</a></li>
+				<li><a href="" onclick="var ref = window.open('http://www.universalis.com/USA.Sunday/compline.htm', '_blank');"  data-transition="none">Night Prayer</a></li>
+   
+   
+    <li><a href="" onclick="var ref = window.open('http://www.web4uonline.com/pdxvocations/videos.php', '_blank');"  data-transition="none">Videos</a></li></ul>
+
+
+
+
+</div><!---end content--->
+
+  
+<script src="inc-footer.js"></script>
+ 
+               
+</div><!---end data role page--->      
+        
+
+
+
+ <!-- *********************************************************
+       	END PRAY NAV
+        ********************************************************* -->
+
+
+
+ <!-- *********************************************************
+       BEGIN ALL NAV
+        ********************************************************* -->
+        
+        
+     
+<div data-role="page" class="pages" id="all" data-theme="c" class="pagesbg" style="background-image:url('img2/stripe.jpg');"> 
+               
+<script src="inc-header.js"></script>
+         
+
+      
+<ul class='breadcrumb'>
+
+<li><a href='#home'><div class='homeicon'></div></a></li>    
+<li><a href='#' title='Home'>All Pages</a></li>
+<div class='crest'>&nbsp;</div>
+</ul>
+
+
+
+<div data-role='content'>
+</div><!---end content--->
+
+<div class="padding">
+
+
+<ul data-role="listview" data-inset="true" data-theme="c" style="margin-top:00px;">
+	<li data-role="list-divider">Discernment Resources</li>
+    <li><a href="#discernment" data-transition="slide" data-prefetch="false">Discernment Basics</a></li>
+    <li><a href="#questions" data-transition="slide" data-prefetch="false">General Questions</a></li>
+    <li><a href="#seminary" data-transition="slide" data-prefetch="false">Seminary</a></li>
+    <li><a href="#priesthood" data-transition="slide" data-prefetch="false">Priesthood</a></li>
+    <li><a href="#scriptures" data-transition="slide" data-prefetch="false">Discernment Scriptures</a></li>
+    
+    <li><a href="" onclick="var ref = window.open('http://web4uonline.com/pdxvocations/videos.html', '_blank');"  data-transition="none">Videos</a></li>
+
+  </ul>
+
+
+
+
+
+
+<ul data-role="listview" data-inset="true" data-theme="c" style="margin-top:30px;">
+	<li data-role="list-divider">Faith & Prayers</li>
+    <li><a href="#prayers" data-transition="slide" data-prefetch="false">Prayers</a></li>
+    
+    <li><a href="" onclick="var ref = window.open('http://www.universalis.com/USA.Sunday/mass.htm', '_blank');"  data-transition="none">Today's Readings</a></li>
+	<li><a href="" onclick="var ref = window.open(sundayURL2, '_blank');"  data-transition="none">Sunday's Readings</a></li>
+    
+    <li><a href="#bible" onclick="var ref = window.open('https://www.bible.com/bible/42/jhn.1.cpdv', '_blank');" data-transition="none">Bible</a></li>
+    
+   <li><a href="" onclick="var ref = window.open('http://www.usccb.org/beliefs-and-teachings/what-we-believe/catechism/catechism-of-the-catholic-church/epub/index.cfm', '_system');"  data-transition="none">Catechism</a></li>
+   
+   <li><a href="" onclick="var ref = window.open('http://www.universalis.com/USA.Sunday/lauds.htm', '_blank');"  data-transition="none">Morning Prayer</a></li>
+				<li><a href="" onclick="var ref = window.open('http://www.universalis.com/USA.Sunday/vespers.htm', '_blank');"  data-transition="none">Evening Prayer</a></li>
+				<li><a href="" onclick="var ref = window.open('http://www.universalis.com/USA.Sunday/compline.htm', '_blank');"  data-transition="none">Night Prayer</a></li>
+   
+   
+    
+
+</ul>
+
+
+
+
+
+
+<ul data-role="listview" data-inset="true" data-theme="c" style="margin-top:30px;">
+	<li data-role="list-divider">More</li>
+    <li><a href="#news" data-transition="slide" data-prefetch="false">News & Events</a></li>
+    <li><a href="#contact" data-transition="slide" data-prefetch="false">Contact</a></li>
+    <li><a href="#app" data-transition="slide" data-prefetch="false">Abou this App</a></li>
+    
+     </ul>
+
+
+
+
+
+</div><!---end content--->
+
+
+
+
+ 
+<script src="inc-footer.js"></script>
+ 
+               
+</div><!---end data role page--->      
+        
+
+
+
+ <!-- *********************************************************
+       	END ALL NAV
+        ********************************************************* -->
+
+
+
+        
+        
+        
+        
+        
+        <!-- *********************************************************
+       	DISCERNMENT PAGE BEGIN
+        ********************************************************* -->
+        <div data-role="page" class="pages pagesbg" id="discernment" data-theme="c">
+        	 
+            
+            
+            <script src="inc-header.js"></script>
+            
+            
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#disc-nav" title="">Discernment</a></li>
+                <li><a href="#" title="">Discernment Basics</a></li>
+                
+                
+            <div class="crest">&nbsp;</div>
+</ul>
+            <!-- / breadcrumb-->
+            
+            <!-- Content Begin -->
+            <div data-role="content">
+            
+            	<!-- Text Area -->
+            	<div class="text-box-area">
+            	<img src="img2/mass-page.jpg" alt="img" class="align-center imgbox fixwidth">
+                
+                <div class="text-info" style="height:100%;">
+                
+                
+                
+                
+  
+        
+                
+                
+                
+                <h2>Discernment</h2>
+                
+                <p>
+                Here you will find information and guidance on discerning a Vocation.</p>
+
+                
+           
+               
+              
+
+                
+                
+                
+                </div><!--text info-->
+                </div>
+                <!-- / Text Area -->
+                
+                <div class="clearfix"></div>
+                
+                
+                
+               
+                
+                <!-- Collapsed Area -->
+                <div data-role="collapsible-set">
+                  <div data-role="collapsible">
+                    <h3>How do I discern?</h3>
+                    
+                    <div class="text-info">
+               
+                  
+  <p>
+  <strong>How do I discern?</strong><br>
+ The best first step in this sometimes difficult process is to follow the words most spoken in the Holy Scripture, “Be not afraid!” Whether it was an angel announcing good news, or Christ speaking to His disciples, setting aside your fear is the fist step. Once you are open to hearing the Lord speak to your heart, a message that will most likely come as a quiet whisper, you will be able to truly discern, figure out, ‘Lord, where are you calling me to serve you in this life?’
+  </p>
+<p>
+
+Discernment must involve prayer, the willingness to seek out quiet in an otherwise noisy world, a desire to know God’s will for your life, and a love for the Church and all Her members. Discernment is the first step in coming to know if the Lord is calling you to serve him as a Roman Catholic priest.
+</p>
+
+
+
+                    </div><!--end text info-->
+                    
+                  </div><!--end collapsible-->
+                  
+                  
+                  
+                  <div data-role="collapsible">
+                    <h3>Steps for Discernment</h3>
+                    
+                    <div class="text-info">
+               
+                  
+     <p>While there are  several methods of discerning God’s calling in your life, the following steps  will hopefully assist you with this process:</p>
+  
+  <h3><strong>You must  have a personal relationship with Christ</strong></h3>
+  <p>As Pope Benedict states: “The seminarian experiences the beauty of  God’s call in a moment of grace which could be defined as ‘falling in love’….It  is only when a young man has had a personal experience of Christ that he can  truly understand the Lord’s will and consequently his own vocation.” Have you  fallen ‘in love’ with Christ?</p>
+  
+  <h3><strong>Pray for  guidance from God</strong></h3>
+  <p>God has a plan for everyone and following God’s plan will lead to  true happiness. Allow the Lord to lead you and have trust that He will only  desire what is best for you. It is then that you will find true happiness and  fulfillment in life.</p>
+  
+  <h3><strong>Pay  attention to the gifts and talents you’ve been given by God</strong></h3>
+  <p>God has blessed each of us with many gifts and talents, distinct  to every person. Have you allowed yourself the ability to consider that these  gifts that you have been blessed with from God could be used to serve the  Church?</p>
+  
+  <h3><strong>Pray  before the Blessed Sacrament for guidance</strong></h3>
+  <p>The Real Presence of our Lord Jesus Christ in the Eucharist is the  ‘source and summit’ of our Catholic faith. What better place to spend time in  quiet reflection and adoration then in the presence of our living God? “This is  Jesus here. This is God. And priests exist to make him sacramentally present to  the faithful.” Seek out a parish that has an adoration chapel and enjoy your  time of grace in the presence of the Blessed Sacrament.</p>
+  
+  <h3><strong>Seek  advice from a priest</strong></h3>
+  <p>While many people are well equipped to assist you in your  discernment of a priestly vocation, there is no substitute for a priest.  Whether it is one of your parish priests, a spiritual director, or friend, the  advice and direction received from a priest will be extremely beneficial in  your discernment of a calling to the priesthood of Jesus Christ.</p>
+  
+  <h3><strong>Receive  the sacraments of Eucharist and Reconciliation </strong></h3>
+  <p>Regular reception of the Eucharist, definitely every Sunday and  preferably every day if your schedule allows, will afford you the opportunity  to stay in communion with the ‘Word made Flesh’. Unlike other food, the more  you receive the Eucharist, the more you become like that which you consume. The  sacrament of Reconciliation reminds you that we are all sinners and always in  need of God’s merciful forgiveness. The more we receive forgiveness for our  sins, the better we can configure our lives to Christ.</p>
+  
+  <h3><strong>Know God,  know true peace</strong></h3>
+  <p>True peace will be felt in your heart when you come to know God as  an intimate friend. This peace will also lead to an affirmation that what you  are experiencing emotionally in regards to your discernment of the priesthood is  from God. Knowing what and where God wants you to be will come with an  overwhelming sense of peace.</p>
+  
+  <h3><strong>Look to  Jesus as the model for all decision making</strong>.</h3>
+  <p>“Father…not my will, but Yours be done.” (Luke 22:42) By seeking  God’s perfect will, life to the fullest will be experienced. Jesus always  followed the will of His Father, are we not called to do the same?</p>
+  
+  <h3><strong>Be  involved in the life of your parish</strong></h3>
+  <p>An excellent way to experience the life of a parish priest is to  involve yourself in the life of a parish…..which is the life of a priest.  Consider being an Extraordinary Minister of the Eucharist, Lector, Catechist or  a member of a Committee, Commission or Council. The more you know about the  life of a priest, the better you will be able to discern.</p>
+  
+  <h3><strong>Contact  your vocation director</strong></h3>
+  <p>While it is always important to consult other people you know and  trust, if you are feeling an attraction to the priesthood ‘at some level’, it  is in your best interest to contact your vocation director. He will be a priest  that will help you to better discern God’s calling in your life. He will also  have programs available to assist you in your discernment.</p>
+
+
+                    </div><!---end text info-->
+                    
+                  </div><!---end collapsible-->
+
+                  
+                  
+           
+     <div data-role="collapsible" data-collapsed="true">
+                  
+                  <h3>Why is Discernment Important?</h3>
+                  
+  <div class="text-info">
+  
+  <p>
+The process of making a decision about your life with the help of the Holy Spirit is called "discernment." It is the process of discovering God's will for you. “Ultimately, our vocation consists in God calling us to consummate loving union with the Father, Son and Holy Spirit for all eternity.”
+</p>
+ <p> 
+As you begin, remember that both you and God ultimately desire the same thing - your happiness. You want to make a decision about your life that will bring you happiness.
+
+</p>
+ <p> 
+Therefore, you and God are not working at cross-purposes, but for the same goal. Discernment is a gift from God, assisting you in the ability to “come to know, identify or recognize one thing as distinct from something else.”
+
+</p>
+ <p>
+Discernment begins with the ability to ask without fear, “Lord, how can I best serve you?” Only after you are willing to ask this question can true discernment begin.
+
+</p> 
+
+
+
+
+
+					</div><!--end text-info-->
+                  </div><!--end collapsible-->
+
+
+ <div data-role="collapsible" data-collapsed="true">
+                  
+                  <h3>Discernment Resources</h3>
+                  
+  <div class="text-info">
+<p>Below are a few resources that may be helpful to you in your discernment.</p>
+  
+  <h3><u><strong>Discernment of  Priesthood</u></strong></h3>
+  <p><strong>Priests for the  New Millennium</strong><br />
+    by Archbishop Timothy Dolan</p>
+  
+  <p><strong>Men of Brave Heart</strong><br />
+    by   Archbishop José Gómez </p>
+  
+  <p><strong>To Save a Thousand  Souls</strong><br />
+    by Fr. Brett Brannen</p>
+  
+  <p><strong>What Does God  Want?<em> A Practical Guide to Making Decisions</em>.&nbsp;</strong></p>
+  <p> Fr. Michael Scanlan, T.O.R. with James  Manney.&nbsp;</p>
+  
+  <p><strong>Diary of a Country  Priest</strong><br />
+    by Georges Bernanos</p>
+  
+  <p>&nbsp;</p>
+  <h3><u><strong>Catholic Church  Teaching</strong></u></h3>
+  <p><strong>Catechism of the  Catholic Church</strong></p>
+  
+  <p><strong><em>Ordinatio  Sacerdotalis.</em></strong><strong> Apostolic Letter on Reserving Priestly Ordination To Men Alone. </strong></p>
+  <p>Pope John Paul II, May 22, 1994</p>
+  
+  <p><strong><em>Sacerdotalis  Caelibatus</em></strong><strong> (The  Celibacy of the Priest).</strong></p>
+  <p>Encyclical. Pope Paul VI, June 24, 1967</p>
+  
+  <p><strong><em>Pastores Dabo  Vobis</em></strong><strong> (I Will Give You  Shepherds). Apostolic Exhortation On the Formation of Priests in the </strong></p>
+  <p><strong>Circumstances of the Present.</strong></p>
+  <p>Pope John Paul II, March 25, 1992</p>
+  
+  <p><strong>Jesus of Nazareth</strong></p>
+  <p>by Pope Benedict XVI</p>
+  
+  <p><strong>Questions and  Answers for Today’s Catholics</strong></p>
+  <p>by Michael Manning</p>
+  
+  <p><strong>The Priest and the  Third Christian Millennium: Teacher of the Word, Minister of the Sacraments and  Leader of the Community.</strong></p>
+  <p>Congregation  for the Clergy, 1999</p>
+  
+  <p>&nbsp;</p>
+  <h3><u><strong>Spirituality</strong></u></h3>
+  <p><strong>Soul of the  Apostolate.</strong>&nbsp; <br />
+    by Dom Chautard </p>
+  
+  <p><strong>Pastoral Presence  and the Diocesan Priest</strong></p>
+  <p>by Rev. Paul T. Keyes</p>
+  
+  <p><strong>When God Asks for  an Undivided Heart:&nbsp; Choosing Celibacy in Love and Freedom</strong></p>
+  <p>by Fr. Andrew Apostoli C.F.R.&nbsp; </p>
+  
+  <p><strong>Spiritual Renewal of the American Priesthood</strong><br />
+    by NCCB, 1971.  Secretariat for Priestly Ministry</p>
+
+
+
+
+					</div><!--end text-info-->
+                  </div><!--end collapsible-->
+
+
+
+
+
+
+
+        </div> 
+                <!-- / Collapsed Area -->
+        
+        
+            </div>
+            <!-- /content -->
+            
+      <script src="inc-footer.js"></script>      
+                
+            </div>
+            <!-- end -->
+        
+        </div><!--end page--->
+        
+        
+        
+        
+        
+        <!-- *********************************************************
+       	  END DISCERNMENT
+        ********************************************************* -->
+        
+        
+        
+          <!-- *********************************************************
+       	 BEGIN QUESTIONS
+        ********************************************************* -->
+        <div data-role="page" class="pages pagesbg" id="questions" data-theme="c">
+        	
+        <script src="inc-header.js"></script>
+        
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                
+                <li><a href="#disc-nav" title="Questions">Discernment</a></li>
+                <li><a href="#" title="Questions">General Questions</a></li>
+            
+            
+            <div class="crest">&nbsp;</div>
+</ul>
+            <!-- / breadcrumb-->
+            
+            <!-- Content Begin -->
+            <div data-role="content">
+            
+            	<!-- Text Area -->
+            	<div class="text-box-area">
+            	<img src="img2/hug.jpg" alt="img" class="align-center imgbox fixwidth">
+                
+                <div class="text-info">
+                
+                <h2>General Questions</h2>
+                
+               
+                </div>
+                <!-- / Text Area -->
+                
+                <div class="clearfix"></div>
+                
+                <!-- Collapsed Area -->
+                <div data-role="collapsible-set">
+                
+
+			  <div data-role="collapsible">
+                    <h3>How do you define "vocation"?</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              
+              <strong>How do you define "vocation"?    </strong><br>          
+              A vocation is a call from God to do something specifically for God and for His kingdom. The primary vocation of every person is to be holy! It is the divine calling to love and serve God, to obey His commandments, and to cooperate with Christ in the work of redemption by loving and serving others. But we are all called to a secondary vocation as well, a "state in life" in which we are to be holy.
+              
+              </p>              
+             
+
+
+
+
+                    </div><!--end text info-->
+                    
+                  </div><!--end collapsible-->
+  
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>What are some of these "secondary" vocations that I might be called to follow?</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              <strong>What are some of these "secondary" vocations that I might be called to follow?</strong><br>
+         Many people are called to the vocation of marriage, but it is an error to automatically assume that this is your vocation. One may also be called to the vocation of the priesthood, to the religious life as a sister or brother, or to the diaconate. Finally, some are called by Christ to the single state. Remember: It is normal to desire marriage and family. Just because you have this desire does not exclude the possibility that you have a vocation to the priesthood.            </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Can I be happy in my life if I do not follow God's plan for me? </h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              <strong>Can I be happy in my life if I do not follow God's plan for me? <br>
+</strong>            
+			  If you do not follow the vocation for which God made you, you can attain a certain degree of happiness in this world, and still attain salvation (go to heaven), but you can never be as happy as you might have been, had you followed your proper vocation. This is why it is so important that you discern correctly. Of course, there are trials and tribulations in every vocation. To become a priest does not take away all suffering. But there is great joy in laying down one's life for Jesus!           </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>How do I know what God is calling me to do?</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              <strong>How do I know what God is calling me to do?</strong><br>
+              
+         
+        You must pray every single day, asking God to reveal His plan for you. Do not ask yourself, "What do I want to do when I grow up?" This is the wrong question! Rather, you should be thinking and asking: "Jesus, what do You want me to do?" And listen for the answer! The primary area of revelation is the heart. Listen with your heart!
+ </p> <p>
+The discernment process in the priesthood must also include the Church. The local bishop is the one who ultimately decides who is and who is not called. He is assisted in this by the Vocation Office and the seminary. This whole process is called "discerning one's vocation."       </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>If I am attracted to the priesthood, does that mean that God is calling me to be a priest?</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              <strong> If I am attracted to the priesthood, does that mean that God is calling me to be a priest?  </strong>
+              
+              
+              Possibly, but not necessarily. A man must pray a great deal, listening with both heart and soul to know what God wants him to do. But if you feel some attraction at this point, just continue to pray, go to Mass, and live a Christian life. If you are living a Christian life, Jesus will let you know when the time comes. Also, go talk with your parish priest or with the vocation director. Try to come to the diocesan-sponsored retreats and discernment nights. The vocation director can help you determine if God is calling you to the priesthood.     </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3> What happens when you finally find enough courage to actually contact someone about your interest in the priesthood? </h3>
+                    
+                    <div class="text-info">
+              
+              
+              <p>
+              <strong>What happens when you finally find enough courage to actually contact someone about your interest in the priesthood?</strong><br>
+             Does the vocation director call you every day to badger you about becoming a priest? Do you get put on a mailing list? Will your friends or your mom find out? </p>
+     <p>
+Not at all! Feel free to call confidentially, and ask any question you like. Give as much or as little information about yourself as you choose. It's a normal part of a vocation director's job to talk to guys at all levels of discernment. </p>
+     <p>
+Lots of men inquire about the priesthood, and for a number of reasons. A small percentage are seriously interested in applying to the seminary. Many are just satisfying their curiosity. Others are inquiring about what a particular diocese is like. </p>
+     <p>
+If you feel a nudge from God to do something about your attraction to the priesthood, take a step in faith!     </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+       <!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>I'm not all that "holy". Can I still be a priest if I'm not very holy?</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              <strong>I'm not all that "holy". Can I still be a priest if I'm not very holy?</strong><br>
+              Holiness (to be like Jesus) is a lifetime endeavor for every person in every vocation. Don't worry if you don't see yourself as very holy right now. God will form you slowly, day by day and week by week, so that you will be ready to be His instrument when the time comes. But for now, use the sacrament of Penance at least once a month. Repent of your sins, receive the sacraments, and pray every day. You will be surprised at how Christ-like you can become!         </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+
+     <!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Will I be lonely if I become a priest?</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              <strong>Will I be lonely if I become a priest?</strong><br>
+              Loneliness is a part of every vocation, at one time or another. It is part of the human condition. Married people get very lonely at times, even though they are surrounded by their spouses and children. Priests are always surrounded by people. This is one of the joys of being a priest. We are involved with people at the most profound moments of their lives: birth, Baptism, Confirmation, First Communion, Marriage, and death. We don't have enough time to experience loneliness often! But when we do experience loneliness, Jesus can fill that void, as He does for people in every vocation.        </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+  <!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>What does a priest do?</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              <strong>What does a priest do?</strong><br>
+              The purpose of a priest is to bring people to Jesus, and Jesus to people. He does this primarily by preaching the Word and offering the Sacrifice of the Mass. His daily life involves administering the sacraments—Baptism, Confirmation, the Eucharist, Penance and Reconciliation, the Anointing of the Sick, and Matrimony (Holy Orders is reserved for bishops to administer)—and caring for the people in their daily needs.       </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+  <!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Is it easy to become a priest?</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              <strong>Is it easy to become a priest?</strong><br>
+            No, it is definitely not easy! A man who wants to become a priest must go to college for four years, with at least two years of philosophy. After graduating from college, he must go to a seminary for another four years to earn a master's degree in divinity. Most men go to school eight to ten years after high school, before they are ordained a priest! But do not let this discourage you. God always gives us the grace to do what He asks us to do.    </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+  <!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Are most priests happy in their vocation - in their lives and in their work for Christ?</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              <strong>Are most priests happy in their vocation - in their lives and in their work for Christ?</strong><br>
+          Most priests are extremely happy in their vocation! The life of a priest is a very rewarding life, both in this world and in the next. The media often gives an incorrect impression of priests… that they are largely unhappy, frustrated, and angry. This is simply not true. A recent nationwide poll was conducted of priests and 87% report being very satisfied with their vocation…..the highest such statistic of any profession!    </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+    
+
+  <!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Are most priests happy in their vocation - in their lives and in their work for Christ?</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              <strong>Can priests do anything they want for recreation and fun?</strong><br>
+          A priest can do anything he wants for recreation, as long as it is consistent with the Christian life. Many priests play golf, basketball, softball, scuba dive, and engage in other sports. Others enjoy movies, plays, and reading. Some like to hunt, fish, and every other imaginable entertainment!   </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+
+  <!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Do priests get paid?</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              <strong>Do priests get paid?</strong><br>
+         Priests do not get paid in the sense that people in the business world are paid. Because a priest does not have a family and because he lives a simple life, he does not need a lot of money. However, priests do receive a salary, which provides him with enough money to buy the necessities, to buy and maintain an automobile, to take a vacation, and to do normal recreational activities. Also, priests are given free room and board by the church for which they work, so their expenses are minimal.  </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+ 
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Is the daily life of the priest interesting?</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              <strong>Is the daily life of the priest interesting?</strong><br>
+         There is never a dull moment in the priesthood! It is a great challenge but it is also extremely rewarding. When a priest goes to bed each night, he can say, "Lord, today I spent myself for You." What a wonderful thought with which to end one's day! The priesthood is both interesting and fulfilling because people are so interesting. But these people need more priests very badly.</p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Why can't priests get married?</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              <strong>Why can't priests get married?</strong><br>
+       Catholic priests in the Latin Rite do not get married so as to dedicate themselves completely to Jesus and to His people. Priests generate "spiritual children" by bringing many souls to Christ and helping them to grow in holiness so that they can one day live forever in Heaven. The sacrifice of celibacy (not getting married) is a sign to the world that only Jesus can give us the happiness that we all so crave. Giving up something as important as marriage and family is a powerful sign to the world that Jesus Christ is real! He is worth living for and sacrificing for. No, it is not easy, but neither is marriage. The fact is, every vocation requires great personal sacrifice. And there is great joy in sacrifice when it is done for Jesus and for others! As one priest said: "It is true that no one will ever call me 'daddy.' But thousands call me 'Father.'"</p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Will priests ever be allowed to get married?</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              <strong>Why can't priests get married?</strong><br>
+      It is possible that this law of the Church will one day be changed. If the Holy Spirit wants this change, He will affect it through the Pope and bishops of the world. However, it would be a grave mistake to go to the seminary "expecting" this change. That would be setting oneself up for a big disappointment, should it not happen.</p>
+
+             
+ </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Don't you think more men would become priests if they could get married? Wouldn't that solve the priest shortage?</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              <strong>Don't you think more men would become priests if they could get married? Wouldn't that solve the priest shortage?</strong><br>
+     Perhaps more men would choose the priesthood, but the question is, "Would this be what is best for the Church?" As said above, celibacy for the sake of the Kingdom is a powerful sign that Jesus is real and that He is worth living for, sacrificing for, and dying for. Besides, in the world as a whole, vocations to the priesthood and religious life have dramatically increased in the last thirty years. In Africa, they increased by 394%; in S. E. Asia, by 152%; in Central America, by 165%; and in South America, by 253%! It is only in the U. S. and in Western Europe that they dropped by 60% and 13%, respectively. The problem is not the requirement of celibacy … there is something else going on in our nation and in Western Europe.</p>
+
+ </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+<!------------end question------------------>
+
+     
+
+     
+               
+                </div> 
+                <!-- / Collapsed Area -->
+        
+            </div>
+            <!-- /content -->
+           
+           
+           
+            
+
+           
+                
+            </div>
+            <!-- end -->
+  
+         <script src="inc-footer.js"></script>
+      </div><!--required ending div-->
+        
+     
+        
+        <!-- *********************************************************
+       	  END Questions
+        ********************************************************* -->
+        
+       
+          <!-- *********************************************************
+       	 BEGIN SEMINARY
+       	 ********************************************************* -->
+        <div data-role="page" class="pages pagesbg" id="seminary" data-theme="c">
+        	
+        	
+             <script src="inc-header.js"></script>
+             
+
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#disc-nav" title="">Discernment</a></li>
+
+                <li><a href="#" title="">Seminary</a></li>
+            <div class="crest">&nbsp;</div>
+</ul>
+            <!-- / breadcrumb-->
+            
+            <!-- Content Begin -->
+            <div data-role="content">
+            
+            	<!-- Text Area -->
+            	<div class="text-box-area">
+            	<img src="img2/seminary3.jpg" alt="img" class="align-center imgbox fixwidth">
+                
+                <div class="text-info">
+                
+                <h2>Seminary</h2>
+                
+               
+                </div>
+                <!-- / Text Area -->
+                
+                <div class="clearfix"></div>
+                
+                <!-- Collapsed Area -->
+                <div data-role="collapsible-set">
+                
+
+			  <div data-role="collapsible">
+                    <h3>What is Seminary</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              
+              <strong>What is Seminary</strong><br>          
+              
+             Seminary: A house of formation where men who are discerning a vocation to the priesthood are formed into holy and dedicated priests.
+
+</p><p>
+Pope John Paul II described seminary formation as "a continuation in the Church of the apostolic community gathered about Jesus, listening to his word, proceeding towards the Easter experience, awaiting the gift of the Spirit for the mission." (PPF7)              
+              </p>              
+             
+
+
+
+
+                    </div><!--end text info-->
+                    
+                  </div><!--end collapsible-->
+  
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>What is a Seminarian?</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              <strong>What is a Seminarian?</strong><br>
+              
+        A seminarian is a man who is discerning the Lord's call to the ministerial Roman Catholic Priesthood. By virtue of his baptism, he is a member of the priesthood of all believers. The seminarian hears the Lord speaking to him and calling him to a fuller participation in the priesthood, by becoming a priest of Jesus Christ. While the priesthood has many elements that make it like a job, it is ultimately a vocation: a calling from the Lord. The seminarian then needs to be open to hearing the Lord's call in his life and be eager to respond to it.
+</p>
+<p>
+A man who enters the seminary does not possess all the answers. In fact, many more questions will arise from time spent in seminary formation! Seminarians come from all walks of life, previous educational experiences, family backgrounds and parishes. They bring different talents, insights, and experiences to their time in formation. In the Program for Priestly Formation, the bishops write,
+</p>
+
+<blockquote>
+"All applicants should give witness to their conviction that God has brought them to the seminary to discern whether or not they are really called to the priesthood, and they should commit themselves wholeheartedly to carrying out that discernment.  (PPF 45)
+</blockquote>
+
+<p>
+Seminarians live in community. This means they pray together, work together, eat together, and study together. While the seminary is a place where individual men go to discern what the Lord is asking of them, ultimately as priests they will belong to a fraternity. The seeds of this brotherhood and fraternity are sown during time in seminary formation. Again, from the Program for Priestly Formation,
+</p>
+<blockquote>
+"The essential work of the seminary takes place in the context of community. Personal growth and character development should progress together harmoniously within a deepening spiritual life. The seminary is a school of human virtue, of growth in honesty, integrity, intellectual rigor, hard work, and tolerance, where the common good is built with solidarity and discipline—all leavened by humor and healthy enjoyment. The seminary also must be a school of spiritual growth in which seminarians are formed into men of prayer, imbued with those virtues that only grace can bring: faith, hope, and charity. The seminary should help the seminarians develop the relationship and dialogue skills necessary for healthy interpersonal relationships as priests." (PPF 260)
+</blockquote>
+
+<p>
+To gain more information about seminarians, please know that you are always welcome to visit the seminary for a personal visit or tour with the 
+<a href="#contact">Director of Vocations</a>.        </p>
+</p>
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Am I ready for the seminary? </h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              <strong>Am I ready for the seminary? <br>
+</strong>            
+
+</p>
+<p>
+	  Entering the seminary is a big step in a man’s life, but it is also important to remember that it is also a small step at the same time. By deciding to enter the seminary, you are simply stating, “I feel the Lord is calling me to discern the vocation of priesthood.” This is a big step because you will have for the first time stated publicly that you are seeking to discern a priestly vocation. Friends and family will react in different ways to this declaration, but don’t let that worry you…..always remember the phrase most spoken in all of scripture, ‘Be Not Afraid!”
+ </p>
+ <p>
+It is a small step, because you will have made no other commitment other than a willingness to spend the next year discerning a calling to the priesthood with the support and assistance of the seminary faculty, and your brother seminarians who both afford you the opportunity to no longer embark on this discernment alone.
+ </p>
+ <p>
+If you discern, through the guidance of your spiritual director, that you are not called to the priesthood, what have you lost? A year or two, or three spent learning more about yourself, your spiritual life, your Church, your vocation….all this goes with you. If your discernment leads you to the sacrament of Holy Orders, you will have found your mission in life. Either way, it is a win-win, or as some would say, time well spent. Ask the vast majority of men who have spent time in the seminary discerning their vocation, and they will tell you it was some of the best years of their lives!          </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Where do we send our Seminarians to Study?</h3>
+                    
+                    <div class="text-info">
+              
+          
+              
+              
+<!----go get seminaries info from server----->      	
+            	
+<!----------------------AJAX REQUEST AND DISPLAY--------------------->
+
+<script>
+
+function getSeminaries() { 
+
+ $.ajax({
+  type: "GET",
+  
+  cache: false, 	
+  url: "http://web4uonline.com/pdxvocations/seminaries.php",
+//  data: "", 
+   dataType: "json",
+  success: function(seminaries) 
+  {
+ document.getElementById("resultsSeminaries").innerHTML=seminaries.seminaries;  
+  }
+  
+  
+});
+
+}
+
+</script>  
+
+<!----------------------END  AJAX REQUEST AND DISPLAY--------------------->
+
+
+
+
+<script type="text/javascript">getSeminaries();</script>
+
+<div id="resultsSeminaries">getting data...internet connection required</div>
+
+
+
+
+
+
+
+
+
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Typical Seminary Schedule</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              <strong> Typical Seminary Schedule  <br>  </strong>
+              
+              
+6:00 A.M.	 Exposition/Benediction -optional
+			  <br>7:10 A.M. 	Morning Prayer
+<br>7:30 A.M.	Mass (Rosary after Mass-optional)
+<br>9:00 A.M.	Time for personal prayer, class, study time, and recreation
+<br>11:45 A.M.	Lunch
+<br>1:30 P.M.	 Time for personal prayer, class, study time, and recreation
+<br>5:10 P.M.	Evening Prayer
+<br>5:30 P.M.	Dinner
+<br>6:00 P.M.	Time for personal prayer, class, study time, and recreation
+<br>8:00 P.M.	Community Holy Hour (Thursday)  </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3> How do I apply? </h3>
+                    
+                    <div class="text-info">
+              
+              
+              <p>
+              <strong>What happens when you finally find enough courage to actually contact someone about your interest in the priesthood?</strong><br>
+             An application for the seminary is one that the Director of Vocations is happy to distribute, but there are a few preliminary steps that must be completed first. The very first step in this process is to 
+			  <a href="#contact">contact the Director of Vocations</a> for the Archdiocese of Portland in Oregon. You must first be accepted by the Archdiocese of Portland before applying to a seminary. </p>
+
+<p>
+After you are accepted then the conversation will lead to the following: 
+<ul>
+    <li>The Vocations Director will ask you to apply for a particular seminary. </li>
+    <li>You will then have interviews with the Rector, priest-faculty of the particular seminary. </li>
+    <li>acceptance by the seminary allows you to begin your seminary training.</li>
+</ul>
+
+
+</p>
+<p>
+
+For more information on the application process <a href="#contact">contact 
+the Vocations Director</a>.
+</p>
+
+
+    </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+      
+
+ 
+
+
+
+     
+
+     
+               
+                </div> 
+                <!-- / Collapsed Area -->
+        
+            </div>
+            <!-- /content -->
+           
+                
+            </div>
+            <!-- end -->
+  
+  
+   <script src="inc-footer.js"></script>
+        
+      </div><!--required ending div-->
+        
+     
+        
+        <!-- *********************************************************
+       	  END SEMINARY
+        ********************************************************* -->
+
+       <!-- *********************************************************
+       	 BEGIN PRIESTHOOD
+       	 ********************************************************* -->
+        <div data-role="page" class="pages pagesbg" id="priesthood" data-theme="c">
+        	
+           <script src="inc-header.js"></script>
+           
+
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#disc-nav" title="">Discernment</a></li>
+                <li><a href="#" title="">Priesthood</a></li>
+            <div class="crest">&nbsp;</div>
+</ul>
+            <!-- / breadcrumb-->
+            
+            <!-- Content Begin -->
+            <div data-role="content">
+            
+            	<!-- Text Area -->
+            	<div class="text-box-area">
+            	<img src="img2/kneeling.jpg" alt="img" class="align-center imgbox fixwidth">
+                
+                <div class="text-info">
+                
+                <h2>Priesthood</h2>
+                
+               
+                </div>
+                <!-- / Text Area -->
+                
+                <div class="clearfix"></div>
+                
+                <!-- Collapsed Area -->
+                <div data-role="collapsible-set">
+                
+
+			  <div data-role="collapsible">
+                    <h3>What is a vocation?</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              
+              <strong>What is a vocation?</strong><br>          
+              
+      The root word for vocation is vocare, which is Latin for "to call." God has created each one of us for a particular calling or way to follow Him. Through the Sacrament of Baptism we become a child of God and thus called to live in holiness through love of God and neighbor. It is important to also remember that our true vocation does not come from the world, but rather is an invitation directly from God to follow Him.
+ </p>
+ 
+ <p>
+Our first or primary vocation is to live in holiness, or in other words, to become a saint! While this is a challenge for us all, it should be the goal of every baptized child of God.
+ </p><p>
+Our particular vocation then becomes our state in life: Priesthood, Consecrated Life, Marriage or Single Life.
+ </p><p>
+Learning what our particular vocation will be requires a process we call discernment. It will be utilized at various stages in our lives and God will use others to assist us in that process.
+ </p>
+ <p>
+Do you have the courage to ask God the question that is seldom uttered in our busy world, “Lord how are you calling me to follow You?”
+ </p>
+ 
+ <blockquote>
+"Ask and it will be given to you; seek and you will find; knock and the door will be opened to you. 
+For everyone who asks, receives, and the one who seeks, finds; and the one who knocks the door will be opened." -Matthew 7:7-8  
+</blockquote>         
+              </p>              
+             
+
+
+
+
+                    </div><!--end text info-->
+                    
+                  </div><!--end collapsible-->
+  
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Qualities of a Priest</h3>
+                    
+                    <div class="text-info">
+              
+              
+             <h3> A Priest is a man of Prayer</h3>
+             The priest is first and foremost a man of prayer. The priest lives ‘in persona Christi’ so his most important prayer is to re-present the sacrifice of Jesus during Holy Mass. His parish relies on him to offer a sacrifice "holy and acceptable to God." Throughout the week, too, at parish meetings and community functions, he is often asked: "Father, will you lead us in prayer?" He is seen as a man who knows how to speak with God.
+ <p>
+A priest spends each day in personal prayer through the Liturgy of the Hours and time in private meditation before the Blessed Sacrament. His private prayer is essential, for he must know Him of whom he speaks, teaches and preaches; he must come to have an intimate relationship with Christ. The priest becomes ‘another Christ’ for his people.
+          </p>
+          
+
+<h3>   
+      A Priest is a preacher of the Word</h3> 
+Since the beginning of Christianity, people have come to Jesus through the preaching of the Word. Today, this remains a primary ministry of a priest. Because the majority of Catholics encounter the faith and receive their inspiration to practice it from the preaching of their parish priest, men who can articulate their knowledge and excitement about their Faith are a great treasure to the Church. A priest's duty, then, is to teach his people how Christ's life is relevant to their own. He answers the question, "How can I live out my faith today?"
+ 
+ <blockquote>
+ <em>
+ "The Church faces a particularly difficult task in her efforts to preach the word of God in all cultures in which the faithful are constantly challenged by consumerism and a pleasure-seeking mentality." (Pope John Paul II)    </em>    </blockquote>
+              
+              
+              
+              
+   
+
+<h3>
+A Priest is a Servant</h3>
+A priest is not a priest for himself. The ordained priest shares in the mission of Jesus as Priest, Prophet and King. As priest, he prays and celebrates the Eucharist. As prophet, he preaches and teaches the Gospel of Jesus Christ, and as king, he serves others.
+ <p>
+At the Last Supper, Jesus gave the Eucharistic mandate to His apostles, "Do this in memory of me," but not before the Lord had knelt down and washed their feet. Jesus said, "What I have done for you, you must do for one another."
+</p> <p>
+A priest must be a servant to God's people. He brings the love and strength of Christ into the parish, the school, the hospital room, the prison, the ghetto…wherever God's people are and especially wherever they suffer, the priest is there.
+
+</p>
+
+                 </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>What about Celibacy</h3>
+                    
+                    <div class="text-info">
+              
+            
+              <strong>What about Celibacy <br>
+</strong>            
+  <p>
+<strong>Celibacy:</strong> The state of being unmarried, specifically for the sake of giving oneself full time to build the Kingdom of God. This is a gift from God, to which a man must be called. Presently, to be called to the priesthood in the Latin Roman Catholic Church is also a call to celibacy.
+ </p><p>
+<strong>Chastity: </strong>“The successful integration of sexuality within the person and thus the inner unity of man in his bodily and spiritual person and thus inner unity of man in his bodily and spiritual being.” (CCC#2337) Chastity is the virtue that moderates the desire for sexual pleasure according to the principles of faith and right reason. Priests, Sisters, married persons, and single persons are called by God to chastity, to use their sexuality according to God’s plan in their specific state in life."
+
+	     </p>
+Are some of these your questions in regards to celibacy?
+  <ul>
+ <li>“I really like girls!”</li> 
+<li>“I have not always lived a chaste life. Can I still be considered for the seminary?”</li> 
+<li>“I struggle with purity, so I’m not sure I possess the holiness that is required for a commitment to celibacy.”</li> 
+<li>“Celibacy seems like a life of loneliness…will I be happy alone?”</li> 
+<li>“I think I still want to be a father?”	     </li> 
+	     
+	   </ul>
+	     
+<p>
+“The requirement of celibacy is certainly one of the greatest sources of anxiety and fear in a man who is discerning priesthood. This is especially true in a sex-saturated society and culture. The message we receive from the media and culture is very clear: no person can be happy and fulfilled unless they are having a lot of sex. But this is simply not true.”</p>
+ <p>
+“The good news is that God’s grace can accomplish all things! With the power of Jesus’ cross, a man can overcome sexual lust and live his life peacefully in his respective vocation. It can be done. It is possible. There is much evidence. For example, there are approximately four hundred thousand Catholic priests worldwide. The huge majority of these men at one time said these or similar words, “I can never become a priest because I like girls too much.” Well, all four hundred thousand of them are priests now. God will never send us where His grace cannot sustain us.”
+ </p>
+ <p>
+ Excerpts taken from: <em>To Save a Thousand Souls: A Guide for Discerning a Vocation to the Diocesan Priesthood</em> by Fr. Brett Brannen (Pgs. 216-219)
+</p>	     
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Are Priests happy?</h3>
+                    
+                    <div class="text-info">
+              
+          
+      <p>The  overwhelming majority of priests are extremely happy in their vocations! Why?  Because they are doing what the Lord intended for their lives…for their  vocation. &nbsp;Most priests will cite administering the Sacraments, preaching  the Word, and helping people and their families as great sources of  satisfaction.* &nbsp;Ultimately, the source of happiness for any child of God is his or her  relationship with Jesus Christ and the priest is given the privilege of acting  in the person of Christ at key moments in the life of the Church.</p>
+ 
+  <p> You  might ask….do you have any facts to back this up?  In an upcoming study to be published in  October 2011 by Msgr. Stephen Rossetti, “<em>Why Priests Are Happy: A  Study of the Psychological and Spiritual Health of Priests”, </em><em>reports that </em><strong> 92% of priests say they are happy in the ministry. </strong>More information can be found about this study below.**<br />
+    The  Holy Father, Pope Benedict XVI, also had this to say to a group of young people  on a pilgrimage regarding how to find true happiness….something that priests  will say they have found:<br />
+    A &quot;yes&quot; to God opens the font of happiness,  says Benedict XVI. </p>
+  
+  <p>Benedict XVI called on young people to imitate Mary's  response when she was &quot;invited to follow an amazing yet disconcerting  journey. Her readiness led her to experience a joy of which all previous  generations had sung.&quot;</p>
+
+  <p>&quot;Our 'yes' to God makes the font of true happiness gush forth,&quot; the  Pope affirmed. &quot;It frees the 'I' from everything that closes it in on  itself. It brings the poverty of our lives into the richness and power of God's  plan, without restricting our freedom and our responsibility. [...] It conforms  our lives to Christ's own life.&quot; </p>
+
+  <p>The Holy Father encouraged the young &quot;to celebrate with enthusiasm the joy  of loving Christ and of believing and hoping in him, and to follow with trust  the path of initiation you have before you.&quot;</p>
+
+  <p>&quot;I particularly invite you to take up the witness of your ancestors in the  faith, and to learn to welcome the word of God -- in silence and meditation --  so that it can mould your hearts and produce generous fruits in you,&quot; he  added. </p>
+  
+  <p>This pilgrimage, the Pontiff concluded, &quot;is also a good time to allow  yourselves to be asked by Christ: <strong>'What  do you want to do with your lives?</strong>' May those among you who feel the call  to follow him in the priesthood or in consecrated life -- as have so many young  participants in these pilgrimages -- reply to the Lord's call and put  yourselves totally at the service of the Church, with a life completely  dedicated to the Kingdom of heaven. You will never be disappointed.&quot; </p>
+
+  <p>*  Study conducted in 2003 by Dr. Dean Hoge, and Jacqueline Wenger entitled: <em>Evolving Visions of the Priesthood: Changes  from Vatican II to the Turn of the Century,</em>that concluded: Would you  indicate how important each of the following is as a source of satisfaction to  you? Percent saying: This is of great importance<br />
+    - 90% Joy in administering the sacraments and presiding over the  liturgy.<br />
+    - 80% Satisfaction in preaching the Word of God.<br />
+    - 67% Opportunity to work with  many people and be part of their lives.<br />
+    - 62% Being a part of community of Christians who are working  together to share the good news of the gospel.</p>
+  <p>  
+   
+    Ave  Maria Press is pleased to announce the acquisition of <em><a href="main.html" onclick="var ref = window.open('https://www.avemariapress.com/product/1-59471-274-3/Why-Priests-Are-Happy/', '_blank');">Why Priests Are Happy: A Study of the  Psychological and Spiritual Health of Priests</a></em> by renowned  psychologist Msgr. Stephen J. Rossetti. Now slated to release in October of  2011, this groundbreaking, peer-reviewed study undermines popular notions  that Catholic priests are depressed and unhappy in their vocations. </p>
+  
+  <p>Rossetti  examines many issues, comparing priests to the general male population with  respect to human intimacy, sexual difficulties, burnout, psychological  problems, physical health and self-care. He identifies the factors that  contribute to happiness among priests as well as those that lead a priest to  consider leaving the priesthood. He also looks closely at the contribution of  spirituality to psychological health, examining thirteen elements of priestly  spirituality. What surfaces is a very human portrait of some very human men who  are imbued with a spirituality that has a direct and profound effect on their  lives. Priests are clearly, and really not surprisingly, normal men. And contrary  to the image portrayed in the media, <strong>92%  say they are happy in the ministry. </strong></p>
+
+
+
+
+
+
+
+
+
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>A typical priest schedule</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              
+          Ask two different priests about their schedule, and you will receive two different answers. Like most professionals, how a priest spends his day ‘at work’ is not necessarily a standard answer. Because priests are individuals with distinct talents and interests, a day can look different for any priest, even those that live in the same rectory!</p>
+ 
+ <p>
+That being said, there are also some similarities and a ‘typical’ schedule to a parish priests’ day. For most priests’ ministering in a parish, the average day would look something like this:
+
+</p>
+<p>
+
+6am – 8
+Rise from sleep and prepare for the celebration of morning mass. Many priests will take advantage of their morning preparation as also their time of personal prayer…which becomes the foundation for their day.
+
+</p>
+<p>
+
+ 
+8 - 10
+Typically between these morning hours would be the time that most parishes celebrate the Eucharist. There are also some parishes who celebrate an evening daily mass on one or two days of the week.
+ 
+ </p>
+<p>
+
+ 
+10 – 12
+If there is a funeral, this would be the usual time to celebrate the Mass for the deceased and their grieving family. A priest would also utilize this time for office work or preparation for his bulletin article, homily prep, staff development, building issues, visiting the parish school, visit parishioners or perform another ministry within the parish.
+
+</p>
+<p>
+
+ 
+12pm – 1
+Everyone needs to eat, so this also true for the parish priest! A little fuel for the body will give him the energy he needs for the remainder of his day. This might also be a time for rest, exercise, or prayer.
+ 
+ 
+ </p>
+<p>
+
+1 – 4
+Many people look to their parish priest for assistance and spiritual guidance. During this time, a priest may have several appointments from members of his parish, for reasons ranging from: spiritual direction, staff issues, building issues, school issues, Archdiocesan issues, marriage counseling…..if you can think of a need, a priest will be called upon to offer his help.
+</p>
+<p>
+
+ 
+4 – 7
+It can be rather difficult to work on a homily while in the office, so many priests will take advantage of this time to return to his rectory to work on those areas of his ministry which require more privacy and less interruptions. He may also use this as a time for prayer, meetings, exercise, or rest. Dinner will be on his agenda as well!
+ 
+ </p>
+<p>
+
+ 
+7 – 10
+Depending on the day, this is the time when a priest in a parish meets with his parishioners for the many scheduled meetings which take place. Examples of a parishes monthly meetings would be: Parish Council, Worship/Education/Christian Service/Administration Commissions, School Committee, and any variety of parish organization meetings as well. This would also be a very busy time for a priest to again meet with parishioners, engaged couples, etc.
+ 
+ </p>
+<p>
+
+ 
+10 - ?
+After a long day of working ‘in the vineyard’, a priest will find his way back to his rectory for some personal time (reading, music, TV, etc.) and then to bed for a night of hopefully restful sleep.
+
+</p>
+<p>
+
+
+One of his last prayers before his evening comes to a close, comes from Night Prayer in the Liturgy of Hours:
+“Protect us Lord as we stay awake, watch over us as we sleep, that awake we may keep watch with Christ, and asleep rest in His peace.”
+</p>
+<p>
+<strong>Saturday:</strong>
+In addition to his personal prayer, a priest will be ready for the celebration of any combination of the following:  Funeral, Wedding, Baptism, Confession and/or personal appointment(s). The day will culminate with the celebration of the Sunday Vigil Mass.
+ </p>
+<p>
+
+<strong>Sunday:</strong>
+Most priests will celebrate 2-3 masses on a Sunday morning with the people of his parish. The Sunday Eucharist brings together all the people of his faith community: parish staff that assist in the management and ministry of the parish and the many dedicated volunteers who assist in the celebration of the Eucharist each and every Sunday. There might also be parish functions that take place on a Sunday afternoon as well. The remainder of the day might be used for rest or time with family or friends….but mostly rest!
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3> What is the next step? </h3>
+                    
+                    <div class="text-info">
+              
+              
+              <p>
+              What is the next step?
+An application for the seminary is one that the Director of Priestly Vocations is happy to distribute, but there are a few preliminary steps that must be completed first. The very first step in this process is to contact Fr. John Henderson, the Director of Priestly Vocations for the Archdiocese of Portland in Oregon. After the opportunity to meet and discuss in more detail your discernment of the priesthood, the conversation may lead to the following steps: </p>
+
+<ul>
+    <li>Write an autobiography (exactly as format suggests) </li>
+    <li>Write three essays a. what does priesthood mean to me? <br />
+      b. why do i want to be a priest? <br />
+      c. Why do I want to be a priest in the Archdiocese of Portland? (International seminarians only </li>
+    <li>Meet with our Psychologist </li>
+    <li>Meet with members of our admission committee for an interview. </li>
+    <li>Be assigned a Seminary to attend. </li>
+    <li>Apply to Seminary and follow all their instructions <br />
+    </li>
+  </ul>
+
+</p>
+<p>
+
+For more information on the application process, <a href="#contact">contact 
+the Vocations Director</a>.
+</p>
+
+
+    </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+      
+
+ 
+
+
+
+     
+
+     
+               
+                </div> 
+                <!-- / Collapsed Area -->
+        
+            </div>
+            <!-- /content -->
+           
+                
+            </div>
+            <!-- end -->
+   <script src="inc-footer.js"></script>
+
+        
+      </div><!--required ending div-->
+        
+     
+        
+        <!-- *********************************************************
+       	  END PRIESTHOOD
+        ********************************************************* -->
+     
+        
+
+
+    <!-- *********************************************************
+       	 BEGIN PRAYERS
+        ********************************************************* -->
+        <div data-role="page" class="pages pagesbg" id="prayers" data-theme="c">
+        	
+            <script src="inc-header.js"></script>
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"> <div class="homeicon"></div></a></li>
+                <li><a href="#faith-nav" title="Prayers">Faith</a></li>
+                <li><a href="#" title="Prayers">Vocation Prayers</a></li>
+            <div class="crest">&nbsp;</div>
+</ul>
+            <!-- / breadcrumb-->
+            
+            <!-- Content Begin -->
+            <div data-role="content">
+            
+            	<!-- Text Area -->
+            	<div class="text-box-area">
+            	<img src="img2/prayer.jpg" alt="img" class="align-center imgbox fixwidth">
+                
+                <div class="text-info">
+                
+                <h2>Vocation Prayers</h2>
+                
+                <p>
+                Below is a collection of wonderful prayers to pray for an increase in Vocations. 
+                </p>
+
+       
+                </div>
+                <!-- / Text Area -->
+                
+                <div class="clearfix"></div>
+                
+                <!-- Collapsed Area -->
+                <div data-role="collapsible-set">
+                
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>You are the One</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              
+             O Lord, I praise you, I adore you, I glorify your name.
+			  <br>I am here before you in awe and reverence, and I place myself in your outstretched arms. Help me realize that you have a plan for me, a plan that is personal, unique and given to me with your deep abounding love. 
+            </p>
+						<p>
+              Help me realize that I Am The One you have chosen.
+						<br>Help me come to know the journey you have set for me.
+						<br>Guide me as I seek to discover your Will!
+<br>Please give me the voice to say yes to you alone. 
+            </p>
+						<p>
+              
+           			You know me, you love me, and you chose me!
+						<br>What a gift! What great joy! 
+            </p>
+            
+            <p>
+            I want to accept your invitation!        
+<br>I want to follow your Will for me!
+
+            </p>
+            
+            <p>
+            In my doubt, give me courage!       
+<br>In my fear, give me strength!    
+In my confusion, set me on a clear path!
+
+            </p>
+            
+            <p>
+            
+You KNOW me! I now dwell in that knowledge and follow you!
+
+            </p>
+
+<p>
+Amen
+</p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+                
+                
+                
+   
+<!-----------begin question--------------------->             
+
+			  <div data-role="collapsible">
+                    <h3>Litany for vocations</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+
+       Lord have mercy, <em>Lord have mercy</em>. <br>Christ have mercy, <em>Christ have mercy</em>.
+			  <br>Lord have mercy, <em>Lord have mercy</em>. <br>Christ, hear us. 
+			  <em>Christ, Graciously hear us</em>.
+             </p>
+
+<p>
+God the Father of heaven, <em>have mercy on us</em>. <br>God the Son, Redeemer of the world, <em>have mercy on us</em>. <br>God the Holy Spirit, <em>have mercy on us</em>. <br>Holy Trinity, one God, <em>have mercy on us</em>.
+
+</p>
+
+<p>
+Holy Mary, Mother of God, <em>pray for us</em>. <br>St. Joseph, Protector of the Church, 
+<em>pray for us</em>. <br>St. Louis, King of France, <em>pray for us</em>. <br>St. Rose Philippine Duchesne, 
+<em>pray for us</em>. <br>St. Vincent de Paul, <em>pray for us</em>. <br>St. John Vianney, patron of priests, 
+<em>pray for us</em>.
+
+</p>
+<p>
+Through your mercy, <em>send workers into your harvest, O Lord</em>. <br>Through 
+your kindness, <br>Through the power of the Holy Sacrifice of the Mass, <em>send workers into your harvest, O Lord</em>
+<br>Through the intercession of all the saints and angels, <em>send workers into your harvest, O Lord</em>
+<br>Through the sanctification of the family, <em>send workers into your harvest, O Lord</em>
+<br>Through parents being generously open to life, <em>send workers into your harvest, O Lord</em>
+<br>Through the example of priests and religious striving for holiness, <em>send workers into your harvest, O Lord</em>
+T<br>hrough a renewed sense of fidelity to our Catholic Faith, <em>send workers into your harvest, O Lord</em>
+
+</p>
+<p>
+Lamb of God, who takes away the sins of the world, <em>spare us O Lord</em>. <br>Lamb of God, who takes away the sins of the world, 
+<em>graciously hear us, O Lord</em>. <br>Lamb of God, who takes away the sins of the world, 
+<em>have mercy on us</em>.
+
+</p>
+
+<p>
+The harvest is abundant but the laborers are few.
+<br>We beg you, Lord; <em>send out laborers for Your harvest</em>.
+
+</p>
+
+
+
+
+
+                    </div><!--end text info-->
+                    
+                  </div><!--end collapsible-->
+  
+<!-----------end question--------------------->       
+  
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Prayer of self-abandonment</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              
+              <em>Charles Eugene de Foucauld (1858-1916)
+<br></em>
+            </p>
+						<p>
+              
+           			 Father, I abandon myself into your hands; do with me what you will. Whatever you may do. I thank you; I am ready for all, I accept all. Let only your will be done in me, and in all your creatures. I wish no more than this, 
+						O Lord.
+            </p>
+						<p>
+              
+           			 Into your hands I commend my soul; I offer it to you with all the love of my heart, for I love you, Lord, and so need to give myself, to surrender myself into your hands, without reserve, and with boundless confidence, for you are my Father.
+            </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Teresa of Avila</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+      Let nothing disturb you. Let nothing frighten you. All things pass. God does not change. Patience achieves everything. Whoever has God lacks nothing. God alone suffices.       </p>
+
+<p>
+Christ has no body on earth but yours; no hands but yours; no feet but yours. Yours are the eyes through which the compassion of Christ must look out on the world. Yours are the feet with which He is to go about doing good. Yours are the hands with which He is to bless His people.
+</p>
+
+
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Thou art a priest forever</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+  			<em>Jean-Baptiste Henri Lacordaire, O.P. (1802-1861)
+</em>
+     </p>
+						<p>
+  					  To live in the midst of the world with no desire for its pleasures; to be a member of every family, yet belonging to none; to share all sufferings; to penetrate all secrets, to heal all wounds; to daily go from men to God to offer Him their homage and petitions; to return from God to men to bring them His pardon and hope; to have a heart of fire for charity and a heart of bronze for chastity; to bless and to be blest forever. O God, what a life, and it is yours, O Priest of Jesus Christ!      </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>  Prayer of Generosity </h3>
+                    
+                    <div class="text-info">
+                    <p>
+                    <em>St. Ignatius Loyola</em>
+                    </p>
+              
+              <p>Lord Jesus, teach me to be generous;  teach me to serve you as you deserve,  to give and not to count the cost,  to fight and not to heed the wounds,  to toil and not to seek for rest,  to labor and not to seek reward,  except that of knowing that I do your will.
+Amen.   
+     </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+     
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Prayer of St. Francis</h3>
+                    
+                    <div class="text-info">
+                   
+              <p>Lord, make me an instrument of your peace.
+<br>Where there is hatred, let me sow love;
+<br>where there is injury,pardon;
+where there is doubt, faith;
+<br>where there is despair, hope;
+<br>where there is darkness, light;
+<br>and where there is sadness, joy.
+ 
+     </p>
+
+<p>
+O Divine Master, grant that I may not so much seek
+<br>to be consoled as to console;
+<br>to be understood as to understand;
+<br>to be loved as to love.
+<br>For it is in giving that we receive;
+<br>it is in pardoning that we are pardoned;
+<br>and it is in dying that we are born to eternal life. <br>Amen
+
+</p>
+
+
+
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+
+
+
+<!-----begin a sub set----------->
+	<div data-role="collapsible" data-theme="">
+					<h3>Common Prayers</h3>
+
+
+<div data-role="collapsible-set" data-theme="" data-content-theme="">
+
+	<div data-role="collapsible" data-theme="">
+					<h3>Our Father</h3>
+				Our Father, Who art in heaven, 
+Hallowed be Thy Name. 
+Thy Kingdom come. 
+Thy Will be done, on earth as it is in Heaven. Give us this day our daily bread. 
+And forgive us our trespasses, 
+as we forgive those who trespass against us.
+And lead us not into temptation,
+but deliver us from evil. Amen.					
+					</div>	
+
+
+<div data-role="collapsible" data-theme="">
+					<h3>Hail Mary</h3>
+Hail Mary,
+Full of Grace,
+The Lord is with thee.
+Blessed art thou among women,
+and blessed is the fruit
+of thy womb, Jesus.
+Holy Mary,
+Mother of God,
+pray for us sinners now,
+and at the hour of death.
+Amen.
+		
+					</div>	
+<div data-role="collapsible" data-theme="">
+					<h3>Glory Be</h3>
+Glory be to the Father,
+and to the Son,
+and to the Holy Spirit.
+As it was in the beginning,
+is now,
+and ever shall be,
+world without end.
+Amen.
+					</div>	
+<div data-role="collapsible" data-theme="">
+					<h3>Apostle's Creed</h3>
+I believe in God, the Father Almighty, Creator of Heaven and earth;
+and in Jesus Christ, His only Son Our Lord,
+Who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried.
+He descended into Hell; the third day He rose again from the dead;
+He ascended into Heaven, and sitteth at the right hand of God, the Father almighty; from thence He shall come to judge the living and the dead.
+ I believe in the Holy Spirit, the holy Catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body and life everlasting.
+
+Amen.
+					</div>	
+<div data-role="collapsible" data-theme="">
+					<h3>Guardian Angel Prayer</h3>
+Angel of God,
+my guardian dear,
+To whom God's love
+commits me here,
+Ever this day,
+be at my side,
+To light and guard,
+Rule and guide.
+Amen.
+
+	</div>	
+
+<div data-role="collapsible" data-theme="">
+					<h3>St. Michael the Archangel</h3>
+St. Michael the Archangel,
+defend us in battle.
+Be our defense against the wickedness and snares of the Devil.
+May God rebuke Him, we humbly pray,
+and do thou,
+O Prince of the heavenly hosts,
+by the power of God,
+thrust into hell Satan,
+and all the evil spirits,
+who prowl about the world
+seeking the ruin of souls. Amen.
+	</div>	
+
+
+<div data-role="collapsible" data-theme="">
+					<h3>Come Holy Spirit</h3>
+Come, Holy Spirit, fill the hearts of Thy faithful and enkindle in them the fire of Thy love.
+
+<p>
+<strong>Leader:</strong> Send forth Thy Spirit and they shall be created. <br>
+<strong>Response:</strong> And Thou shalt renew the face of the earth.
+</p>
+
+Let us pray. O God, Who didst instruct the hearts of the faithful by the light of the Holy Spirit, grant us in the same Spirit to be truly wise, and ever to rejoice in His consolation. Through Christ our Lord.
+
+
+
+	</div>	
+
+<div data-role="collapsible" data-theme="">
+					<h3>Memorare</h3>
+Remember, O most gracious Virgin Mary, that never was it known that anyone who fled to thy protection, implored thy help, or sought thine intercession was left unaided.
+Inspired by this confidence, I fly unto thee, O Virgin of virgins, my mother; to thee do I come, before thee I stand, sinful and sorrowful. O Mother of the Word Incarnate, despise not my petitions, but in thy mercy hear and answer me. Amen.	</div>
+
+
+<div data-role="collapsible" data-theme="">
+					<h3>Magnificat</h3>
+					<p>
+My soul proclaims the greatness of the Lord,
+my spirit rejoices in God my Savior
+for he has looked with favor on His lowly servant.
+From this day all generations will call me blessed:
+the Almighty has done great things for me,
+and holy is His Name.<p>
+</p>
+He has mercy on those who fear Him
+in every generation.
+He has shown the strength of His arm,
+he has scattered the proud in their conceit.<p>
+</p>
+He has cast down the mighty from their thrones,
+and has lifted up the lowly.
+He has filled the hungry with good things,
+and the rich he has sent away empty.<p>
+</p>
+He has come to the help of His servant Israel
+for he remembered His promise of mercy,
+the promise he made to our fathers,
+to Abraham and His children forever. <p>
+</p>
+(Lk 1:46-55)
+
+	</div>
+	
+	
+	
+	<div data-role="collapsible" data-theme="">
+					<h3>Hail Holy Queen</h3>
+
+	
+	
+	Hail, holy Queen, mother of mercy, our life, our sweetness, and our hope. To thee do we cry, poor banished children of Eve. To thee do we send up our sighs mourning and weeping in this valley of tears. Turn then, most gracious advocate, thine eyes of mercy toward us, and after this our exile show us the blessed fruit of thy womb, Jesus. O clement, O loving, O sweet Virgin Mary.
+
+Pray for us, O Holy Mother of God.
+
+That we may be made worthy of the promises of Christ.
+
+</div>	
+	
+<!--end the collapsible set of common prayers-->	
+	
+	
+	
+	
+				</div><!--end subset of common prayers-->
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!------begin prayer section-------------->
+
+
+<div data-role="collapsible" data-theme="">
+					<h3>The Rosary</h3>
+
+<p>
+<strong>The Rosary is prayed in the following manner:
+</strong>
+<ol>
+<li>Make the Sign of the Cross: In the Name of the Father, and of the Son and of the Holy Spirit.</li>
+<li>Pray the Apostle's Creed: Found in Common Prayers section.</li>
+<li>Pray one Our Father, One Hail Mary, and One Glory Be: Also found in Common Prayers section.</li>
+<li>Pray each of the five "decades" of the Rosary. A decade consists one one Our Father, ten Hail Marys, and one Glory Be. While praying the ten Hail Mary's for each of the five decades, you may want to meditate on the mysteries outlined below. Each set of mysteries offers one meditation for each of the five decades of the Rosary. </li>
+
+<li>The Rosary ends by praying the Hail Holy Queen, also found above.</li>
+</ol>
+
+</p>
+<h3>Joyful Mysteries</h3>
+<ol>
+<li> The Annunciation </li>
+<li>  The Visitation </li>
+<li>  The Nativity </li>
+<li>  The Presentation </li>
+<li> The Finding of Jesus in the Temple </li>
+
+</ol>
+
+
+
+<h3>Sorrowful Mysteries</h3>
+<ol> 
+<li> The Agony in the Garden </li>
+<li>  The Scourging at the Pillar </li>
+<li> The Crowning with Thorns </li>
+<li> The Carrying of the Cross </li>
+<li> The Crucifixion </li>
+
+</ol>
+
+
+
+<h3>Glorious Mysteries</h3>
+<ol> 
+<li> The Resurrection </li>
+<li>  The Ascension </li>
+<li> The Descent of the Holy Spirit</li>
+<li> The Assumption of the Blessed Virgin Mary </li>
+<li> The Coronation of the Blessed Virgin Mary </li>
+
+</ol>
+
+
+<h3>Luminous Mysteries</h3>
+<ol> 
+<li>  The Baptism in the Jordan </li>
+<li>  The Wedding at Cana </li>
+<li> Proclamation of the Kingdom</li>
+<li> The Transfiguration </li>
+<li> Institution of the Eucharist </li>
+
+</ol>
+
+</div>
+
+
+
+
+
+<!----------end prayer section------------>
+
+
+
+
+
+
+
+     
+      
+               
+                </div> 
+                <!-- / Collapsed Area -->
+        
+            </div>
+            <!-- /content -->
+            
+       
+        
+        </div>
+        
+          <script src="inc-footer.js"></script>
+        
+        
+        </div><!--end-->
+        
+        <!-- *********************************************************
+       	  END PRAYERS
+        ********************************************************* -->
+        
+  <!-- *********************************************************
+       	 BEGIN SCRIPTURES
+        ********************************************************* -->
+        <div data-role="page" class="pages pagesbg" id="scriptures" data-theme="c">
+        	
+          <script src="inc-header.js"></script>      
+          
+      
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#disc-nav" title="Prayers">Discernment</a></li>
+                <li><a href="#" title="">Scriptures</a></li>
+            <div class="crest">&nbsp;</div>
+</ul>
+            <!-- / breadcrumb-->
+            
+            <!-- Content Begin -->
+            <div data-role="content">
+            
+            	<!-- Text Area -->
+            	<div class="text-box-area">
+            		<img src="img2/bible.jpg" alt="img" class="align-center imgbox fixwidth">
+
+                
+                <div class="text-info">
+                
+                <h2>Scriptures </h2>
+                <p>
+                Below are many Bible passages that can be used for prayerful reflection on various vocational topics.
+                </p>
+               
+                </div>
+                <!-- / Text Area -->
+                
+                <div class="clearfix"></div>
+                
+                <!-- Collapsed Area -->
+                <div data-role="collapsible-set">
+   
+<!-----------begin question--------------------->             
+
+			  <div data-role="collapsible">
+                    <h3>Discipleship (Old Testament)</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              
+             <p><strong>Gen 12:1-9</strong> <em>The Call of Abram:</em> Leave your country and family to come</p>
+<p><strong>Gen 22:1-19</strong> <em>Faith to obey God:</em> Abraham is commanded to offer Isaac</p>
+<p><strong>Gen 37-50</strong> <em>God orchestrates our lives to bring us to our vocation:</em> The Story of Joseph</p>
+<p><strong>Exo 3:1-12</strong> <em>The Call of Moses:</em> “I will be with you”</p>
+<p><strong>1 Sam 3:1-10</strong> <em>The Call of Samuel:</em> “Speak, Lord, for your servant is listening”</p>
+<p><strong>1 Kgs 19:16, 19-21</strong> <em>The Call of Elisha: “’</em>Please let me kiss my father and mother goodbye and I will follow you’…then he left and followed Elijah.”</p>
+<p><strong>Isa 6:1-13</strong> <em>The Call of Isaiah</em>: “’Whom shall I send?’…‘Here I am…send me!’”</p>
+<p><strong>Isa 42:6-7</strong> “I have called you… I have grasped you by the hand… To open the eyes of the blind.”</p>
+<p><strong>Isa 43:1-ff </strong>“Do not fear, for I have redeemed you; I have called you by name, you are mine”</p>
+<p><strong>Isa 45:4</strong> “I have called you by your name… though you knew me not.”</p>
+<p><strong>Isa 49:1-7</strong> “The Lord called me from birth, from my mother’s womb he gave me my name.”</p>
+<p><strong>Jer 1:1-10</strong> <em>The call of Jeremiah: “’</em>Lord God,  I know not how to speak.  I am too young…’ ‘Say not I am too young… to whomever I send you, you shall go.’”</p>
+<p><strong>Jer 20: 7-9</strong> <em>Jeremiah’s crisis:</em> “You duped me O Lord and I let myself be duped.  You were too strong for me and you triumphed… It seemed like a fire burning in my heart.”</p>
+<p><strong>Jer 29: 11-15 </strong>“I know well the plans I have in mind for you…to give you a future full of hope.”</p>
+<p><strong>Jon 1-3</strong> <em>The Call of Jonah:</em> “The word of the Lord came to Jonah; set out for the great city of Ninevah and preach against it…”</p>              </p>
+
+
+
+
+                    </div><!--end text info-->
+                    
+                  </div><!--end collapsible-->
+  
+<!-----------end question--------------------->       
+  
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Discipleship (New Testament)</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              
+           <p><strong>Mt 4:18-22 or Mk 1:16-20</strong> <em>Jesus Calls His first disciples:</em> “Come after me and I will make you fishers of men.”</p>
+<p><strong>Mt 9: 35-38 </strong><em>Pray for priestly vocations: </em>“The harvest is rich but the laborers are few; beg the harvest master to send out laborers for His harvest.”</p>
+<p><strong>Mt 16:24-28 </strong>“Whoever wishes to come after me must deny himself, take up His cross and follow me.”</p>
+<p><strong>Mt 17:1-13 </strong><em>The Transfiguration of Jesus:</em> “This is my beloved Son with whom I am well pleased.  Listen to Him.”</p>
+<p><strong>Mt 19: 16-30 or Mk 10: 17-27</strong> <em>The Rich Young Man:</em> “If you wish to be perfect, go, sell what you have and give to the poor, and you will have treasure in heaven.  Then come follow me.”</p>
+<p><strong>Mt 20:20-28 or Mk 10:35-45</strong> <em>The request of James and John:</em> “Anyone who wants to be great among you must be your servant… just as the Son of Man came not to be served but to serve, and to give His life as a ransom for the many.”</p>
+<p><strong>Mt 26:17-35 or Mk 14:12-26 or Lk 22:1-38</strong> <em>The Last Supper:</em> “Take and eat; this is my body.  This is the cup of my blood.  Do this in remembrance of me.”</p>
+<p><strong>Mt 26:36-46</strong> <em>The Agony in the Garden:</em> “My Father, if it is possible, let this cup pass from me; yet not as I will but as you will.”</p>
+<p><strong>Mt 28 </strong><em>The Great Commission</em>: “Go ye therefore and make disciples of all the nations.”</p>
+<p><strong>Lk 4:18</strong> “The spirit of the Lord is upon me, because he has anointed me to bring glad tidings to the poor, to proclaim liberty to captives, and recovery of sight to the blind…”</p>
+<p><strong>Lk 9:57-62 </strong>“’I will follow you but first let me say farewell to my family’… ‘No one who sets a hand to the plow and looks to what was left behind is fit for the Kingdom of God.’”</p>
+<p><strong>Jn 2: 1-11 </strong><em>The wedding feast at Cana: </em>“Do whatever He tells you.”</p>
+<p><strong>Jn 15:9-17</strong> “You did not choose me, but I chose you and appointed you that you should go and bear fruit and that your fruit should abide.”</p>
+<p><strong>Jn 10 </strong><em>The Good Shepherd:</em> “When the Good Shepherd has driven out all His own, he walks ahead of them and the sheep follow him, because they recognize His voice.”</p>
+<p><strong>Jn 19:1-30</strong> <em>The Mother of priests:</em> “Behold your mother.” The disciple (the priest St. John) took her into His home.</p>
+<p><strong>Mk 3:13 </strong><em>The Mission of the Twelve:</em> “He summoned those whom he wanted and they came to Him”</p>
+<p><strong>Mk 10:28-30</strong> <em>The  Reward of Discipleship:</em> “We have given up everything and followed you…you will  be repaid a hundred times more now in this present age…and eternal life in the age to come.”</p>
+<p><strong>Lk 1:26-56 </strong><em>The Call of Mary:</em> The Annunciation: “Behold I am the handmaid of the Lord; may it be done to me according to your word.”</p>
+<p><strong>Lk 14:25-33 </strong><em>Jesus on Discipleship:</em> “Whoever does not carry His own cross and come after me cannot be my disciple.”</p>
+<p><strong>Jn 1:35-51 </strong><em>The call of the first disciples:</em> “What are you looking for?  Come and see.”</p>
+<p><strong>Rom 8:28</strong> “All things work for good for those who love God, who are called according to His purpose.”</p>
+<p><strong>1 Cor 1:26-31 </strong><em>God calls who He chooses: </em>“Consider your own calling…Not many of you were wise… Rather God chose the foolish to shame the wise.”</p>
+<p><strong>Gal 1:15 </strong>“God, who from my mother’s womb, had set me apart and called me through His grace”</p>
+<p><strong>Phil 3:10-14 </strong>“Forgetting what lies behind but straining forward to what lies ahead…the prize of God’s upward calling in Christ Jesus.”</p>
+<p><strong>1 Pt 2:9-10 </strong>“God has called you out of darkness into His own marvelous light.”</p>            </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Discernment</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+              
+            <p><strong>Mt 16:13-23</strong> “Who do people say that I am?”</p>
+<p><strong>Acts 1:15-26</strong> <em>The choice of Matthias</em></p>
+<p><strong>Acts 6:1-6 </strong><em>The selection of the first deacons</em></p>
+<p><strong>Acts 13: 2-4 </strong><em>Paul and Barnabas selected by the Holy Spirit to go and preach</em></p>
+<p><strong>Acts 15:28</strong> “It is the decision of the Holy Spirit and of us.”</p>
+<p><strong>Rom 8:14-17</strong> “You did not receive a spirit of slavery to fall back into fear.”</p>
+<p><strong>Rom 12:1-2</strong> “Do not conform yourself to this age…that you may discern what is the will of God.”</p>
+<p><strong>1 Cor 2: 7-12</strong> “This God has revealed to us…so that we may understand.”</p>
+<p><strong>1 Cor 12:4-11</strong> “There are different kinds of spiritual gifts but the same Spirit.”</p>
+<p><strong>Gal 5:16-26</strong> <em>The works of the flesh</em></p>
+<p><strong>Eph 1: 3-14</strong> “In Him we were also chosen.”</p>
+<p><strong>Eph 1:17 </strong>“A spirit of wisdom and revelation resulting in knowledge of Him.”</p>
+<p><strong>1 Jn 4:1-3</strong> “Do not trust every spirit but test the spirits to see whether they belong to God”</p>           </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Priesthood</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+        <p><strong>Jn 13:1-14</strong> <em>The washing of the Disciples’ feet</em></p>
+<p><strong>1 Pet 2:2-10</strong> “Come to Him…let yourselves be built…to be a holy priesthood.”</p>
+<p><strong>Heb 4:12-16</strong> <em>Jesus, the compassionate high priest</em></p>
+<p><strong>Heb 5:1-10</strong> “Every high priest is taken from among men”</p>
+<p><strong>Heb 10:10-17</strong> “Every priest stands daily at His ministry&#8221;</p>
+<p><strong>Heb 3: 7-11</strong> “If today you hear His voice, harden not your hearts.”</p>
+<p><strong>Heb 7:17</strong> “You are a priest forever according to the order of Melchizedek.”</p>
+<p><strong>Heb 8:3</strong> “Now every high priest is appointed to offer gifts and sacrifices.”</p>      </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>Celibacy</h3>
+                    
+                    <div class="text-info">
+              
+              <p>
+<p><strong>1Cor.7:-34</strong> “I should like you to be free of anxieties.  An unmarried man is anxious about the things of the Lord, how he may please the Lord.  But a married man is anxious about the things of the world, how he may please his wife, and he is divided.</p>
+<p><strong>Mt 19:10-12 </strong>“Some are incapable of marriage because they were born so; some, because they were made so by others; some, because they have renounced marriage for the sake of the kingdom of heaven.  Whoever can accept this ought to accept it.”</p>
+<p><strong>Lk 18:29-30</strong> “Anyone who has given up house or wife or brothers… for the sake of the  Kingdom of God will receive back an overabundant return in this present age and eternal life in the age to come.”</p>
+<p><strong>Hos 2:21-22 </strong>“I will espouse you to me forever; I will espouse you in fidelity and you shall know the Lord…”</p>    </p>
+
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+<!-----------begin question--------------------->
+                
+			  <div data-role="collapsible">
+                    <h3>  Particular Circumstances </h3>
+                    
+                    <div class="text-info">
+              
+             <p><strong>I’m not holy enough:</strong> Isa 6:1-9; Lk 5:1-11</p>
+<p><strong>I’m afraid I will fail:</strong> Ex 14: 10-31; Lk 15</p>
+<p><strong>I’ve made mistakes and I’m a sinner</strong>: Jn 21:15-23; Mt 9:9-13; Lk 7:36-50</p>
+<p><strong>I’m too young:</strong> 1 Sam 3:1-18; 1 Sam 16:1-13; Jer 1:4-10; Lk 1:26-3</p>
+<p><strong>I’m not talented enough</strong>: 1 Sam 17:32-51; Lk 1: 26-38</p>
+<p><strong>I want to have a family:</strong> Gen 12:1-3; Mt 12:46-50; Mk 10:28-30</p>
+<p><strong>I want “the good life”:</strong> Mk 10:17-31; 1 Cor 2:9; Mt 13:44-46; Jn 10:10; Mt 16:24-27</p>
+<p><strong>I’m afraid of making a permanent commitment:</strong> Ruth 1:15-17;    Mt 28:16-20; 1 Cor 12:5-10</p>
+<p><strong>I’m afraid of public speaking</strong>: Ex 4:10-17; Jer 1:4-10; Jer 1: 9-10</p>
+<p><strong>I’m not smart enough:</strong> 2 Cor 4:7-18; Ex 4:10-17</p>
+<p><strong>I’m afraid of being alone:</strong> Ex 3:4-22; Lk 1:28-38; Mt 28:20</p>
+<p><strong>I want to be happy:</strong> Ps 37:4; Mt 5: 1-12; Jn 10:10; Mk 10:28-31; 1 Cor 2:9</p>
+<p><strong>I’m filled with fear:</strong> 1Jn 4:18 “There is no fear in love, but perfect love casts out fear.”</p>
+                    </div><!--end text info-->                
+                  </div><!--end collapsible-->
+
+
+<!------------end question------------------>
+
+     
+     
+      
+               
+                </div> 
+                <!-- / Collapsed Area -->
+        
+            </div>
+            <!-- /content -->
+            
+           
+        
+        </div>
+        <script src="inc-footer.js"></script> 
+        
+        </div><!--end-->
+        
+        <!-- *********************************************************
+       	  END SCRIPTURES
+        ********************************************************* -->
+
+       
+        
+
+    <!-- *********************************************************
+       	 BEGIN VIDEO
+        ********************************************************* -->
+
+        
+        
+        
+        <div data-role="page" class="pages pagesbg" id="videos" data-theme="a">
+        	
+            <!-- Header Begin -->
+            <div data-role="header" class="header" data-theme="h">
+            <a href="#" class="showMenu menuBtn">Menu</a>
+            <div class="logo">PDX Vocations</div>
+            </div>
+            <!-- /header -->
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#" title="Questions">Videos</a></li>
+            <div class="crest">&nbsp;</div>
+</ul>
+            <!-- / breadcrumb-->
+            
+            <!-- Content Begin -->
+            <div data-role="content">
+            
+            	<!-- Text Area -->
+            	<div class="text-box-area">
+            	
+            	<div class="text-info">
+            	
+            	
+  <!----------------------AJAX REQUEST AND DISPLAY--------------------->
+  
+
+
+
+
+
+
+  
+  
+  
+
+<script>
+
+
+//kill getVideos function if Android less than 3.5
+
+var ua = navigator.userAgent;
+if( ua.indexOf("Android") >= 0 )
+{
+  var androidversion = parseFloat(ua.slice(ua.indexOf("Android")+8)); 
+  
+  
+  
+  if (androidversion < 3.5)
+  {
+      // do something
+      window.getVideos=function(){return false;};
+      
+  }
+}
+
+///
+
+
+
+
+function getVideos() { 
+
+
+
+ $.ajax({
+  type: "GET",
+//  timeout: 1000,
+  cache: false, 	
+  url: "http://web4uonline.com/pdxvocations/videos.php",
+//  data: "", 
+   dataType: "json",
+  success: function(videos) 
+  {
+ document.getElementById("resultsVideos").innerHTML=videos.videos;  
+  }
+  
+  
+});
+
+}
+
+</script>  
+
+
+<!-------AJAX END----->
+<script>
+
+var ua = navigator.userAgent;
+if( ua.indexOf("Android") >= 0 )
+{
+  var androidversion = parseFloat(ua.slice(ua.indexOf("Android")+8)); 
+  
+  
+  
+  if (androidversion < 3.5)
+  {
+      // do something
+      document.write("it worked");
+      
+  }
+}
+
+
+</script>
+
+
+
+
+
+
+<button onclick="getVideos()" value="Update Videos">Update Videos</button>
+<script type="text/javascript">getVideos();</script>
+
+
+
+
+
+
+
+
+  <div id="resultsVideos">getting data...internet connection required</div> 
+ 
+
+ 
+ <script>
+
+var ua = navigator.userAgent;
+if( ua.indexOf("Android") >= 0 )
+{
+  var androidversion = parseFloat(ua.slice(ua.indexOf("Android")+8)); 
+  if (androidversion < 3.5)
+  {
+      // do something
+      
+      
+  }
+}
+
+
+
+
+</script>
+
+ 
+ 
+ 
+ 
+      </div>
+               
+       </div> <!--end text info--> 
+    </div>  <!--end content-->    
+    </div>   <!--end text-box-area--> 
+    
+    
+    
+    
+    </div>  <!--end page role--->  
+        
+        <!-- *********************************************************
+       	  END VIDEO
+        ********************************************************* -->
+
+
+<!-- *********************************************************
+       	 BEGIN NEWS
+        ********************************************************* -->
+ 
+
+        
+        
+        <div data-role="page" class="pages pagesbg" id="news" data-theme="c">
+        
+        
+          <script src="inc-header.js"></script>
+        	
+           
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#" title="Questions">News & Events</a></li>
+            <div class="crest">&nbsp;</div>
+</ul>
+            <!-- / breadcrumb-->
+            
+            <!-- Content Begin -->
+            <div data-role="content">
+            
+            	<!-- Text Area -->
+            	<div class="text-box-area">
+            	
+            	<div class="text-info">
+            	
+            	
+            	
+     
+
+     	
+            	
+            	
+            	
+<!----------------------AJAX REQUEST AND DISPLAY--------------------->
+
+<script>
+
+function getNews() { 
+
+ $.ajax({
+  type: "GET",
+  
+  cache: false, 	
+  url: "http://web4uonline.com/pdxvocations/news.php",
+//  data: "", 
+   dataType: "json",
+   timeout:15000,
+  success: function(news) 
+  {
+ document.getElementById("resultsNews").innerHTML=news.news;  
+  }
+  
+  
+});
+
+}
+
+</script>  
+
+<!----------------------END  AJAX REQUEST AND DISPLAY--------------------->
+
+
+<button onclick="getNews()" value="Update News">Update News</button>
+
+<script type="text/javascript">getNews();</script>
+
+<div id="resultsNews">getting data...internet connection required</div>
+
+
+        
+
+
+               
+               
+               
+               </div>
+               
+       </div> <!--end text info--> 
+    </div>  <!--end content-->    
+    
+    <script src="inc-footer.js"></script>
+    
+    </div>   <!--end text-box-area--> 
+    
+    
+    
+    
+    </div>  <!--end page role--->  
+        
+        <!-- *********************************************************
+       	  END NEWS
+        ********************************************************* -->
+
+
+
+<!-- *********************************************************
+       	 BEGIN CONTACT
+        ********************************************************* -->
+        <div data-role="page" class="pages pagesbg" id="contact" data-theme="c">
+        	 
+
+ <script src="inc-header.js"></script>
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#" title="Contact">Contact</a></li>
+            <div class="crest">&nbsp;</div>
+</ul>
+            <!-- / breadcrumb-->
+            
+            <!-- Content Begin -->
+            <div data-role="content">
+            
+            	<!-- Text Area -->
+            	<div class="text-box-area">
+            	
+            	<div class="text-info" style="overflow:hidden;">
+            	
+            	
+              
+              
+ <!----------------------AJAX REQUEST AND DISPLAY--------------------->
+
+<script>
+
+function getContact() { 
+
+ $.ajax({
+  type: "GET",
+  timeout: 15000,
+  cache: false, 	
+  url: "http://web4uonline.com/pdxvocations/contact.php",
+//  data: "", 
+   dataType: "json",
+  success: function(contact) 
+  {
+ document.getElementById("resultsContact").innerHTML=contact.contact;  
+  }
+  
+  
+});
+
+}
+
+</script>  
+
+<!----------------------END  AJAX REQUEST AND DISPLAY--------------------->
+
+
+
+
+<script type="text/javascript">getContact();</script>
+
+<div id="resultsContact">getting data...internet connection required</div>
+
+ 
+               
+               
+   
+               
+       </div> <!--end text info--> 
+    </div>  <!--end content-->    
+    
+  
+    </div>   <!--end text-box-area--> 
+    
+    
+     <script src="inc-footer.js"></script>
+    
+    </div>  <!--end page role--->  
+        
+        <!-- *********************************************************
+       	  END CONTACT
+        ********************************************************* -->
+        
+        
+        
+        
+
+<!-- *********************************************************
+       	 BEGIN APP
+        ********************************************************* -->
+        <div data-role="page" class="pages pagesbg" id="app" data-theme="c">
+        	
+         
+         <script src="inc-header.js"></script>
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#" title="Contact">About the App</a></li>
+            <div class="crest">&nbsp;</div>
+</ul>
+            <!-- / breadcrumb-->
+            
+            <!-- Content Begin -->
+            <div data-role="content">
+            
+            	<!-- Text Area -->
+            	<div class="text-box-area">
+            	
+            	<div class="text-info" style="overflow:hidden;">
+            	
+            	
+              
+<!----------------------BEGIN FETCH--------------------->
+
+<script>
+
+function getApp() { 
+
+ $.ajax({
+  type: "GET",
+  timout: 15000,
+  cache: false, 	
+  url: "http://web4uonline.com/pdxvocations/app.php",
+//  data: "", 
+   dataType: "json",
+  success: function(app) 
+  {
+ document.getElementById("resultsApp").innerHTML=app.app;  
+  }
+  
+  
+});
+
+}
+
+</script>  
+
+
+
+
+
+
+<script type="text/javascript">getApp();</script>
+
+<div id="resultsApp">getting data...internet connection required</div>
+ 
+              
+<!----------------------END  FETCH--------------------->              
+
+
+
+ 
+   
+               
+       </div> <!--end text info--> 
+    </div>  <!--end content-->    
+    </div>   <!--end text-box-area--> 
+    
+    <script src="inc-footer.js"></script>
+    
+    
+    </div>  <!--end page role--->  
+        
+        <!-- *********************************************************
+       	  END App
+        ********************************************************* -->
+
+        
+<!--///////////////////////////////////////////////////////////////////////////////////////-->
+<!--/////////////////////////////////////TODAY READINGS/////////////////////////////////////////-->			
+<!--///////////////////////////////////////////////////////////////////////////////////////-->
+
+   <div data-role="page" class="pages pagesbg" id="today-readings" data-theme="c">
+        	
+         
+         <script src="inc-header.js"></script>
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#" title="Contact">Today's Readings</a></li>
+            <div class="crest">&nbsp;</div>
+</ul>
+            <!-- / breadcrumb-->
+            
+            <!-- Content Begin -->
+            <div data-role="content">
+            
+            
+<img src="img2/bible.jpg" alt="img" class="align-center imgbox fixwidth">
+
+            
+            	<!-- Text Area -->
+            	<div class="text-box-area">
+            	
+            	<div class="text-info" style="overflow:hidden;">
+
+
+ 
+<!----------------------BEGIN EXTERNAL FETCH--------------------->
+<script>
+function gettodayReadings() 
+{$.ajax({type: "GET",cache: false, 
+url: "http://web4uonline.com/pdxvocations/todayReadings.php",
+timeout: 15000,
+//  data: "", 
+dataType: "json", success: function(todayReadings) 
+{document.getElementById("resultstodayReadings").innerHTML=todayReadings.todayReadings;}
+});
+}
+</script>  
+
+
+<script type="text/javascript">gettodayReadings();</script>
+<div id="resultstodayReadings">getting data...internet connection required</div>
+<!----------------------END EXTERNALFETCH--------------------->
+ 
+ 
+	
+               
+       </div> <!--end text info--> 
+    </div>  <!--end content-->    
+    </div>   <!--end text-box-area--> 
+    
+    <script src="inc-footer.js"></script>
+    
+    
+    </div>  <!--end page role--->  
+        
+        <!-- *********************************************************
+       	  END App
+        ********************************************************* -->
+
+
+<!--///////////////////////////////////////////////////////////////////////////////////////-->
+<!--/////////////////////////////////////END TODAY READINGS/////////////////////////////////////////-->			
+<!--///////////////////////////////////////////////////////////////////////////////////////-->
+
+       
+<!--///////////////////////////////////////////////////////////////////////////////////////-->
+<!--/////////////////////////////////////BEGIN SUNDAY READINGS/////////////////////////////////////////-->			
+<!--///////////////////////////////////////////////////////////////////////////////////////-->
+
+   <div data-role="page" class="pages pagesbg" id="sunday-readings" data-theme="c">
+        	
+         
+         <script src="inc-header.js"></script>
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#" title="Contact">Sunday Readings</a></li>
+            <div class="crest">&nbsp;</div>
+</ul>
+            <!-- / breadcrumb-->
+            
+            <!-- Content Begin -->
+            <div data-role="content">
+            
+            
+<img src="img2/bible.jpg" alt="img" class="align-center imgbox fixwidth">
+
+            
+            	<!-- Text Area -->
+            	<div class="text-box-area">
+            	
+            	<div class="text-info" style="overflow:hidden;">
+
+
+ 
+<!----------------------BEGIN EXTERNAL FETCH--------------------->
+<script>
+function getsundayReadings() 
+{$.ajax({type: "GET",cache: false, 
+url: "http://web4uonline.com/pdxvocations/sundayReadings.php",
+timeout: 15000,
+//  data: "", 
+dataType: "json", success: function(sundayReadings) 
+{document.getElementById("resultssundayReadings").innerHTML=sundayReadings.sundayReadings;}
+});
+}
+</script>  
+
+
+<script type="text/javascript">getsundayReadings();</script>
+<div id="resultssundayReadings">getting data...internet connection required</div>
+<!----------------------END EXTERNALFETCH--------------------->
+ 
+ 
+	
+               
+       </div> <!--end text info--> 
+    </div>  <!--end content-->    
+    </div>   <!--end text-box-area--> 
+    
+    <script src="inc-footer.js"></script>
+    
+    
+    </div>  <!--end page role--->  
+        
+       
+        
+        
+        
+
+
+<!--///////////////////////////////////////////////////////////////////////////////////////-->
+<!--/////////////////////////////////////END SUNDAY READINGS/////////////////////////////////////////-->			
+<!--///////////////////////////////////////////////////////////////////////////////////////-->
+
+
+
+
+   
+        
+        
+        
+        
+        
+  <!--////////////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////////////         
+                                      END OF PAGES
+  ////////////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////////////-->      
+ 
+
+
+
+       
+        
+
+
+<!--plugin--->
+<script src="childbrowser.js"></script>
+
+
+<!---Getting Readings---->
+<script src="inc-sundayReadings.js"></script>
+
+
+
+
+
+
+
+
+
+
+<!--------------------------------------FOR PUSH------------------------------------->
+	
+   <!--<script type="text/javascript" charset="utf-8" src="cordova-2.2.0.js"></script>-->
+        
+      
+        <script type="text/javascript" src="PushNotification.js"></script>
+        <script src="pushwoosh.js" type="text/javascript"></script>
+        
+        <script type="text/javascript">
+            var pushNotification;
+            
+            function onDeviceReady() {
+                $("#app-status-ul").append('<li>deviceready event received</li>');
+                
+				document.addEventListener("backbutton", function(e)
+				{
+                	$("#app-status-ul").append('<li>backbutton event received</li>');
+  					
+      				if( $("#home").length > 0)
+					{
+						// call this to get a new token each time. don't call it to reuse existing token.
+						//pushNotification.unregister(successHandler, errorHandler);
+						e.preventDefault();
+						navigator.app.exitApp();
+					}
+					else
+					{
+						navigator.app.backHistory();
+					}
+				}, false);
+
+				try 
+				{ 
+                	pushNotification = window.plugins.pushNotification;
+                	if (device.platform == 'android' || device.platform == 'Android') {
+						$("#app-status-ul").append('<li>registering android</li>');
+						
+						
+						
+                    	pushNotification.register(successHandler, errorHandler, {"senderID":"659620956030","ecb":"onNotificationGCM"});		// required!
+					} else {
+						$("#app-status-ul").append('<li>registering iOS</li>');
+                    	pushNotification.register(tokenHandler, errorHandler, {"badge":"true","sound":"true","alert":"true","ecb":"onNotificationAPN"});	// required!
+                	}
+                }
+				catch(err) 
+				{ 
+					txt="There was an error on this page.\n\n"; 
+					txt+="Error description: " + err.message + "\n\n"; 
+					alert(txt); 
+				} 
+            }
+            
+            // handle APNS notifications for iOS
+            function onNotificationAPN(e) {
+                if (e.alert) {
+                     $("#app-status-ul").append('<li>push-notification: ' + e.alert + '</li>');
+                     navigator.notification.alert(e.alert);
+                }
+                    
+                if (e.sound) {
+                    var snd = new Media(e.sound);
+                    snd.play();
+                }
+                
+                if (e.badge) {
+                    pushNotification.setApplicationIconBadgeNumber(successHandler, e.badge);
+                }
+            }
+            
+            // handle GCM notifications for Android
+            
+
+///////////////////////////////////PUSHWOOSH FOR ANDROID/////////////////////////////////////////////////////            
+            
+          // handle GCM notifications for Android
+ function onNotificationGCM(e) {
+     switch( e.event )
+     {
+         case 'registered':
+         if ( e.regid.length > 0 )
+         {
+             // Your GCM push server needs to know the regID before it can push to this device
+             // here is where you might want to send it the regID for later use.
+             PushWoosh.appCode = "EC81E-0C82B";
+             PushWoosh.register(e.regid, function(data) {
+                     //    alert("PushWoosh register success: " + JSON.stringify(data));
+                     }, function(errorregistration) {
+                     //    alert("Push Connection Error" +  errorregistration);
+                     });
+ 
+         }
+         break;                    
+///////////////////////////////////PUSHWOOSH FOR ANDROID/////////////////////////////////////////////////////                      
+                    
+                    case 'message':
+                    	// if this flag is set, this notification happened while we were in the foreground.
+                    	// you might want to play a sound to get the user's attention, throw up a dialog, etc.
+                    	if (e.foreground)
+                    	{
+							$("#app-status-ul").append('<li>--INLINE NOTIFICATION--' + '</li>');
+
+							// if the notification contains a soundname, play it.
+							var my_media = new Media("/android_asset/www/"+e.soundname);
+							my_media.play();
+						}
+						else
+						{	// otherwise we were launched because the user touched a notification in the notification tray.
+							if (e.coldstart)
+								$("#app-status-ul").append('<li>--COLDSTART NOTIFICATION--' + '</li>');
+							else
+							$("#app-status-ul").append('<li>--BACKGROUND NOTIFICATION--' + '</li>');
+						}
+
+						$("#app-status-ul").append('<li>MESSAGE -> MSG: ' + e.payload.message + '</li>');
+						$("#app-status-ul").append('<li>MESSAGE -> MSGCNT: ' + e.payload.msgcnt + '</li>');
+                    break;
+                    
+                    case 'error':
+						$("#app-status-ul").append('<li>ERROR -> MSG:' + e.msg + '</li>');
+                    break;
+                    
+                    default:
+						$("#app-status-ul").append('<li>EVENT -> Unknown, an event was received and we do not know what it is</li>');
+                    break;
+                }
+            }
+     
+/////////////////////////////////PUSHWOOSH INSERT FOR APPLE //////////////////////////////////////////
+       
+            function tokenHandler (result) {
+               
+                // Your iOS push server needs to know the token before it can push to this device
+                // here is where you might want to send it the token for later use.
+               PushWoosh.appCode = "EC81E-0C82B";
+    		PushWoosh.register(result, function(data) {
+                    //    alert("PushWoosh register success: " + JSON.stringify(data));
+                    }, function(errorregistration) {
+                    //    alert("Couldn't register with PushWoosh" +  errorregistration);
+                    });
+                    
+            }         
+                    
+/////////////////////////////////PUSHWOOSH INSERT FOR APPLE //////////////////////////////////////////                
+                
+           
+
+            function successHandler (result) {
+                $("#app-status-ul").append('<li>success:'+ result +'</li>');
+            }
+            
+            function errorHandler (error) {
+                $("#app-status-ul").append('<li>error:'+ error +'</li>');
+            }
+            
+			document.addEventListener('deviceready', onDeviceReady, true);
+
+         </script>  
+  
+
+
+
+<!---------------------------------------END PUSH--------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+	
+
+    </body>
+    
+    
+    
+    
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</html>

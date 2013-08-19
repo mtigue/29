@@ -1,0 +1,231 @@
+﻿/*
+
+blue from menu box: #0f2c3f
+Mid Gold from buttons: #f0a224
+
+*/
+
+
+body, html {height:100%; margin:0; padding:0; width:100%; background-color:#0a6137 !Important;}
+
+
+.fixTop {margin:-20px 0px 0px 0px !important; }
+.fixContent {margin:10x 10px 0px 10px !important; }
+
+
+
+h3 {text-shadow:0px 0px 0px 0px !important; }
+
+.ui-btn-up-i {text-shadow:0px 0px 0px rgb(0, 0, 0) !important; }
+.ui-btn-text, .ui-btn-text a {colors:#FFFFFF; font-weight:normal; font-size:1em; font-family:helvetica, arial, sans-serif !Important;  }
+.ui-btn-text:hover {colors:#333333; font-weight:normal; text-shadow:0px 0px 0px rgb(0, 0, 0);  }
+
+
+#menu {background-color:#0a6137 !Important; border:0px solid #FFFFFF !Important; }
+
+
+/* #menu ul li a:hover {background-color:#EEEEEE; color:#000000 !Important; text-shadow:0px 0px 0px 0px !important; } 
+
+ a:active {background-color:#EEEEEE; color:#333333 !important;} 
+.activex {background-color:#EEEEEE !important; color:#333333 !important;}
+
+
+
+
+
+*/
+ #menu ul li a {border-color:#08522e !important; }
+
+
+
+
+#menu ul li a:hover span.icon{background-position:0 -40px !important}
+#menu li a span.icon{float:right; width:21px; height:20px; background:transparent url(../images/menuIconsSprite.png) 0 0 no-repeat; position:relative; right:20px; top:-2px}
+
+
+#menu ul li a:link, #menu ul li a:visited {border-bottom:solid #33414a 1px; color:#FFFFFF; font-size:14px; font-weight:500; text-decoration:none; width:165px; display:block; padding:10px 0px 10px 10px; text-shadow:0px 1px 1px #000}
+
+
+/*removes colord background for slide menu will have to remove this if adding back the slide menu */
+body{background:#0a6137; background-image:none !Important;}
+
+
+
+  
+ 
+.pagesbg {
+
+
+background-image:url('img2/stripe.jpg') !important; background-repeat:repeat;  
+ 
+}
+
+
+
+
+.breadcrumb a {color:#333333 !important; }
+
+
+
+.homebg {
+
+background: url('img2/mass2.jpg') 0% 80px; no-repeat center center fixed; 
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-background-origin:border;
+  height:100% !important; height:auto;
+  position:absolute; top: 00px;  width:100%; }
+
+.crest {background-images:url('img2/crest-30.png'); float:right; width:45px !Important; background-position:right; width:100%; background-repeat:no-repeat; }
+
+
+
+.logo {width:100% !Important; height:35px !important; margin-top:0px; text-align:center !Important; background-imagex:url('img2/logo-icon.png') !important;
+background-image:none !Important;
+ background-position:left; padding-top:10px; 
+ background-repeat:no-repeat; font-size:20px; color:#FFFFFF; }
+
+.page { background-colors:#CCCCCC !important; background-images:url('img2/vm.jpg'); max-width: 100%; height:auto;}
+
+
+.homebox {background-color:#0f2c3f; background-color:#0a6137 !Important; width:55%; float:left; height:10%; padding:8px; font-size:1em; color:#FFFFFF; position:absolute; 
+bottoms:30px; top:100px; float:left; margin-bottom:00px; !important; float:left; overflow:hidden; height:auto;  
+opacity:1.0;
+filter:alpha(opacity=98); /* For IE8 and earlier */
+
+
+
+
+ }
+ 
+
+.text-info h2 {margin:0px 0px 10px 0px; }
+
+.text-info a {color:#0a6137 !important; text-decoration:underline !important;}
+
+
+.text-info h3 {margin:20px 0px 5px 0px !important; clear:left !important; text-shadow: 0px !important; }
+
+.text-info p  {font-size:1.1em !Important; }
+
+.text-info ol li {margin:15px 0px 0px 0px !important; font-size:1.1em !important; }
+
+.text-info ol {margin:0px 0px 0px 0px !Important; }
+
+.black {background-color:#333333 !Important;}
+
+
+/* for PDX question form */
+
+.desc {color:#333333 !important; }
+
+
+.box {background-color:#EEEEEE; padding:12px; float:left; width:95%; margin:20px 0px 0px 0px; }
+.box a {color: #0a6137 !Important; text-decoration:underline; font-weight:normal !important; }
+
+
+
+.ui-focus,
+.ui-btn:focus {
+ -moz-box-shadow: none !important;
+ -webkit-box-shadow: none !important;
+ box-shadow: none !important;
+}
+
+.ui-btn-active 
+{ 
+    color: #2F3E46 !important; 
+    background: none !important; 
+    background-color: #eee !important; 
+    text-shadow: 0 /*{a-bup-shadow-x}*/ 
+                 1px /*{a-bup-shadow-y}*/ 
+                 0 /*{a-bup-shadow-radius}*/ 
+                 #ffffff /*{a-bup-shadow-color}*/;  
+}
+
+
+.header {background-color:#0a6137 !Important; background-image:none !Important; border:0px !important;" }
+
+
+/*
+.ui-btn-corner-all {
+/*    -moz-border-radius:                 1em /*{global-radii-buttons}*/ !important;
+/*    -webkit-border-radius:              1em /*{global-radii-buttons}*/!important;
+/*    border-radius:                      1em /*{global-radii-buttons}*/!important;
+}
+
+.ui-btn-corner-all {
+	-webkit-border-radius: 0.4em /*{global-radii-buttons}*/ !Important;
+	border-radius: 0.4em /*{global-radii-buttons}*/ !Important;
+}
+
+
+
+.readingSource {float:right; font-style:italic; margin-top:-21px; font-size:.8em; }
+
+.callout {background-color:#eeeeee; border-radius:4px; padding:12px;}
+
+
+       
+.box {float:left; width:100%; height:auto; padding:12px; background-color:#eeeeee; margin:0px 0px 30px 0px; }
+.box h2 {font-size:20px; margin:0px 0px 20px 0px;}
+
+.newsBox {background-color:#eeeeee !important; padding:12px; overflow:hidden; margin:1em 0 0 0; float:left;}
+.newsBox h2 {margin:0px 0px 0em 0px; }
+
+.newsBox img {display:block; float:left; width:30%; margin-right:1em;  }
+
+
+.callout {background-color:#eeeeee; padding:5px 12px 12px 12px !important; border-radius:.5em; font-size:1em; margin-bottom:30px; 
+	box-shadow: 3px 3px 3px #333333;
+	margin-bottom:30px; margin-right:7px;
+	padding:20px !important;
+	
+	}
+ 
+.readingSource {float:right; font-style:italic; margin-top:-21px; font-size:.8em; }
+
+.callout p, .callout h1 {text-shadow:none !Important;}
+
+.padding {padding:0px 10px 0px 10px;}
+
+
+/* fixing hover state on listview scroll */
+
+*.ui-listview *.ui-btn-up-c,
+*.ui-listview *.ui-btn-down-c,
+*.ui-listview *.ui-btn-hover-c,
+
+  {
+
+	background-position: 0% 0%; border: 1px solid #0a6137 !important; font-weight: bold !important;
+	color: #ffffff /*{c-bup-color}*/ !important;
+	text-shadow: 0 /*{c-bup-shadow-x}*/ 1px /*{c-bup-shadow-y}*/ 0 /*{c-bup-shadow-radius}*/ #444444 /*{c-bup-shadow-color}*/ !important;
+	background-image: linear-gradient( #0b6f3f /*{c-bup-background-start}*/, #08522e /*{c-bup-background-end}*/) !important !important /*{c-bup-background-start}*/ /*{c-bup-background-end}*/; /* Saf4+, Chrome */
+	/* Chrome 10+, Saf5.1+ */
+	/* FF3.6 */
+	/* IE10 */
+	/* Opera 11.10+ */
+	background-color: #0a6137 !important; background-repeat: repeat !important; background-attachment: scroll !important; }
+
+.listview2 ul {margin:0px 0px 0px -30px; border-radius:3px; }
+
+
+.listview ul li a {display:block; padding:1em ; }
+
+.listview2 li {
+
+
+
+
+background-position: 0% 0%; border: 1px solid #0a6137 !important; font-weight: bold !important;
+	color: #ffffff /*{c-bup-color}*/ !important;
+	text-shadow: 0 /*{c-bup-shadow-x}*/ 1px /*{c-bup-shadow-y}*/ 0 /*{c-bup-shadow-radius}*/ #444444 /*{c-bup-shadow-color}*/ !important;
+	background-image: linear-gradient( #0b6f3f /*{c-bup-background-start}*/, #08522e /*{c-bup-background-end}*/) !important !important /*{c-bup-background-start}*/ /*{c-bup-background-end}*/; /* Saf4+, Chrome */
+	/* Chrome 10+, Saf5.1+ */
+	/* FF3.6 */
+	/* IE10 */
+	/* Opera 11.10+ */
+	background-color: #0a6137 !important; background-repeat: repeat !important; background-attachment: scroll !important; }
